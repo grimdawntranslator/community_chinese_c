@@ -807,6 +807,7 @@ tagGDX1MedalB107=^y灵巧徽章
 tagGDX1MedalB108=^y守望者徽章
 tagGDX1MedalB109=^l斯拉萨尔的盾徽
 tagGDX1MedalB109_Desc="利齿充满着被虚化力量扭曲的毒液。"
+tagGDX1MedalB110=^l普拉格尤斯的标记
 
 tagGDX1MedalC101=神圣标记
 tagGDX1MedalC102=罪恶标记
@@ -1216,7 +1217,7 @@ tagGDX1ConsumableB102=巫登药膏
 tagGDX1ConsumableB102Desc="一瓶由巫登之花浓缩制成的抚痛混合物。"
 tagGDX1ConsumableB103=邪恶创伤药膏
 tagGDX1ConsumableB103Desc="粘稠的混合物能让血液迅速凝结。"
-tagGDX1ConsumableB104=咆哮巨兽药剂
+tagGDX1ConsumableB104=怒吼巨兽药剂
 tagGDX1ConsumableB104Desc="一瓶由干的巫登之花制成的强大药剂。"
 tagGDX1ConsumableB105=莫格卓根药剂
 tagGDX1ConsumableB105Desc="由莫格卓根亲自制作的强大药剂。"

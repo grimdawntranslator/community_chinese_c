@@ -792,7 +792,7 @@ tagItemSkillDescA014=将你的敌人转化成岩石。
 tagItemSkillB001Name=冲击波
 tagItemSkillB001Desc=你的攻击中爆发出一道火焰冲击波。
 
-tagItemSkillB002Name=严冬之潮
+tagItemSkillB002Name=严寒新星
 tagItemSkillB002Desc=用死寒之力反击，对周围的敌人施放投射物并将他们冻结。
 
 tagItemSkillB003Name=夜神之沙
@@ -931,6 +931,9 @@ tagItemSkillB045Desc=一团爆裂的火球从你身上激射出来。
 
 tagItemSkillB046Name=酸性尖刺新星
 tagItemSkillB046Desc=一束酸性尖刺从你的身上激射出来。
+
+tagItemSkillB047Name=空中打击
+tagItemSkillB047Desc=在战场上发射大量的注入了虚化能量的炮火。
 
 tagItemSkillC002Name=闪电光球
 tagItemSkillC002Desc=反击攻击你的敌人，向敌人所在的方向施放一枚闪电光球，伤害并眩晕所有所经之处的敌人。
@@ -1401,7 +1404,7 @@ tagItemSkillD021Name=虚化冲击波
 tagItemSkillD021Desc=一阵虚化能量冲击将攻击你的敌人击退。
 
 tagItemSkillD022Name=虚化烈焰
-tagItemSkillD022Desc=从敌人脚下喷发出一阵纯净的奥术火焰。^o需装备施法副手。
+tagItemSkillD022Desc=从敌人脚下喷发出一阵纯净的奥术火焰。
 
 tagItemSkillD023Name=虚化奔流
 tagItemSkillD023Desc=从你体内爆发出纯净的奥术能量并在敌人之间奔涌。
@@ -1498,7 +1501,7 @@ tagItemSkillD053Desc=你的肆意屠杀向虚空发出了呼唤。每当你亲�
 tagItemSkillD053_Pet01=熵能终结
 
 tagItemSkillD054Name=守护者之眼
-tagItemSkillD054Desc=召唤德里格的无尽之眼中的一只来用尖刺屏障保护你。
+tagItemSkillD054Desc=召唤德里格的无尽之眼中的一只来用尖刺屏障保护你。^o守护者之眼会受到玩家伤害加成的影响
 tagItemSkillD054_Pet01=恶毒尖刺
 
 tagItemSkillD055Name=德里格的凝视
@@ -2401,7 +2404,7 @@ tagRelicSkillD014Name=复仇
 tagRelicSkillD014Desc=释放你所承受的攻击并转化为毁灭性的冲击波。
 
 tagRelicSkillD015Name=虫群之心
-tagRelicSkillD015Desc=你在无尽抗争中有节奏的步调将召唤虫群来协助你。
+tagRelicSkillD015Desc=你在无尽抗争中有节奏的步调将召唤虫群来协助你。^o虫群会受到战宠加成的影响。
 
 tagRelicSkillD016Name=大屠杀
 tagRelicSkillD016Desc=对敢于攻击所选仆从之人释放索拉尔的愤怒。
@@ -2821,13 +2824,13 @@ tagDevotionEffectC10Desc=一阵抚慰的薄雾从你身上散发而出，愈合�
 tagDevotionEffectC11=莫格卓根的嚎叫
 tagDevotionEffectC11Desc=受到鲜血杀戮的刺激，使你和你的仆从进入暴怒状态。
 tagDevotionEffectC12=元素探寻者
-tagDevotionEffectC12Desc=召唤一个可怕的纯净能量生物，在它归于奥术能量爆炸之前搜寻并燃烧附近的敌人。^o元素探寻者受到玩家伤害影响。
+tagDevotionEffectC12Desc=召唤一个可怕的纯净能量生物，在它归于奥术能量爆炸之前搜寻并燃烧附近的敌人。^o元素探寻者会受到玩家伤害加成的影响。
 tagDevotionEffectC12_Pet01=点燃
 tagDevotionEffectC12_Pet02=爆炸
 tagDevotionEffectC13=激流漩涡
 tagDevotionEffectC13Desc=激流的深渊如饥渴的漩涡一般向敌人释放来毁灭他们。
 tagDevotionEffectC14=暗影复生
-tagDevotionEffectC14Desc=将一名无名英雄复生来与你并肩作战。每次暗影攻击都会回复你的生命值。^o暗影复生受到玩家伤害影响。
+tagDevotionEffectC14Desc=将一名无名英雄复生来与你并肩作战。每次暗影攻击都会回复你的生命值。^o暗影复生会受到玩家伤害加成的影响。
 tagDevotionEffectC14_Pet01=暗影突袭
 tagDevotionEffectC14_Pet02=暗影刀锋
 
