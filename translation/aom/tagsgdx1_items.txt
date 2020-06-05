@@ -87,7 +87,7 @@ tagGDX1WeaponGun1hD103=奥秘之电
 tagGDX1WeaponGun1hD103_Desc="严格按照白银之塔的大法师--阿格维克斯大师的标准打造而成的武器。"
 tagGDX1WeaponGun1hD107=余烬之核
 tagGDX1WeaponGun1hD108=要塞左轮手枪
-tagGDX1WeaponGun1hD109=黑火焚枪
+tagGDX1WeaponGun1hD109=黑焰焚枪
 tagGDX1WeaponGun1hD110=达加隆的破坏者
 tagGDX1WeaponGun1hD110_Desc="枪管内部的符文以超自然的力量将子弹发射出去。"
 tagGDX1WeaponGun1hD111=达加隆的歼灭者
@@ -134,13 +134,14 @@ tagGDX1WeaponGun2hF101=马尔茅斯卡宾枪
 tagGDX1WeaponGun2hF102=马尔茅斯步枪
 tagGDX1WeaponGun2hF103=温迪戈投桩机
 tagGDX1WeaponGun2hF104=黯灭
+tagGDX1WeaponGun2hF104_Desc="敌人无谓的抵抗只能延缓末日的降临。"
 
 
 tagGDX1WeaponMelee2hB101=^l血肉扭曲之核
 tagGDX1WeaponMelee2hB102=^l血肉扭曲碎片
 tagGDX1WeaponMelee2hB103=^y碎肠者战槌
 
-tagGDX1WeaponMelee2hC101=魂裂
+tagGDX1WeaponMelee2hC101=切魂之镰
 tagGDX1WeaponMelee2hC101_Desc="传说这把镰刀的刀刃切割的不仅仅是血肉。"
 tagGDX1WeaponMelee2hC102=塞萨兰的信念
 tagGDX1WeaponMelee2hC107=尤尔托斯之拳
@@ -339,7 +340,7 @@ tagGDX1HeadC102=腐烂修理工的帽子
 tagGDX1HeadC103=净化的凝视
 tagGDX1HeadC103_Desc="这个世界充满了异教徒，受光明会的恩泽，理应净化这个诅咒。"
 tagGDX1HeadC104=赏金猎人的帽子
-tagGDX1HeadC105=艾柯特祖尔的号角
+tagGDX1HeadC105=艾柯特·祖尔的号角
 tagGDX1HeadC105_Desc="这个号角仍然充满着可感知的黑暗。"
 tagGDX1HeadC106=失魂的凝视
 tagGDX1HeadC107=污染的凝视
@@ -361,13 +362,13 @@ tagGDX1HeadD109=德里格的呼声
 tagGDX1HeadD109_Desc="施与传达德里格之语者的祝福与诅咒，便是巫神回应他隐晦信息的那个声音。"
 tagGDX1HeadD110=至高之神的凝视
 tagGDX1HeadD110_Desc="至高神的神圣之光照耀着这个皇冠的持有者。"
-tagGDX1HeadD111=^f掠夺者的恐惧凝视
+tagGDX1HeadD111=^m掠夺者的恐惧凝视
 tagGDX1HeadD111_Desc="虽然从物理位面击败了掠夺者，但是它的精神部分仍然在面具中扭动。"
 tagGDX1HeadD112=克里格的面具☆
 tagGDX1HeadD113=迷失灵魂面具
 tagGDX1HeadD114=奥克塔维尔斯的面甲
 tagGDX1HeadD115=戈尔巴的面罩
-tagGDX1HeadD116=黑火头盔
+tagGDX1HeadD116=黑焰头盔
 tagGDX1HeadD117=法术天灾面甲
 tagGDX1HeadD118=法师杀手的面罩
 tagGDX1HeadD119=瓦尔古尔的珍宝
@@ -474,7 +475,7 @@ tagGDX1TorsoB103_Desc="法袍闪耀着精心编织的奥术符文。"
 tagGDX1TorsoB104=^l瓦拉克斯特瑞亚的天空撕裂法袍
 
 tagGDX1TorsoC101=死亡束缚者华服
-tagGDX1TorsoC102=黑火护胸
+tagGDX1TorsoC102=黑焰护胸
 tagGDX1TorsoC103=星光法袍
 tagGDX1TorsoC103_Desc="灵魂向导经常穿着，这法袍是有天赋的预言者的标志，被命运赋予变化无常的性格，他们很容易被误认为是骗子。"
 tagGDX1TorsoC104=崇高康希拉的外套
@@ -615,8 +616,8 @@ tagGDX1WaistA102=^w救世主护腰
 
 tagGDX1WaistB101=^l巫登沼泽束腰
 tagGDX1WaistB102=^l巫登沼泽护腰
-tagGDX1WaistB103=^l露娜瓦尔高斯的束腰
-tagGDX1WaistB104=^l露娜瓦尔高斯的护腰
+tagGDX1WaistB103=^l露娜·瓦尔高斯的束腰
+tagGDX1WaistB104=^l露娜·瓦尔高斯的护腰
 tagGDX1WaistB105=^y巨魔之心护腰
 tagGDX1WaistB106=^y石魔大师之链
 tagGDX1WaistB107=^y石板护腰
@@ -638,7 +639,7 @@ tagGDX1WaistD102=角斗士的荣耀
 tagGDX1WaistD103=灵魂寻者系带
 tagGDX1WaistD103_Desc="流浪的灵魂被吸引到腰带的织布之中。"
 tagGDX1WaistD104=背信弃义的手段
-tagGDX1WaistD104_Desc="传言曾经属于夜刃尼达拉，每个小瓶都充满着一种独特的毒素。有些甚至可以组合产生完全不同的结果。"
+tagGDX1WaistD104_Desc="粉末与毒素的集合是化学反应的理想选择，这使得火药武器成为了奥术技艺的一大劲敌。"
 tagGDX1WaistD105=诡计系带
 tagGDX1WaistD106=贝若纳斯之鳞
 tagGDX1WaistD106_Desc="来自巨兽贝若纳斯的鳞片几个世纪都没有褪色，很可能永远也不会。"
@@ -818,7 +819,7 @@ tagGDX1MedalC105_Desc="这枚标记属于宝库守护者，光明会宝库的神
 tagGDX1MedalC106=至圣徽章
 tagGDX1MedalC115=地狱苦难徽记
 tagGDX1MedalC116=岩石意志徽章
-tagGDX1MedalC117=烈火先知 徽章
+tagGDX1MedalC117=烈火先知徽章
 tagGDX1MedalC118=光明奖章
 
 tagGDX1MedalD101=恐怖利刃徽章
@@ -947,7 +948,7 @@ tagGDX1Blueprint_WeaponD107=设计图：^i神话的灵魂漩涡
 tagGDX1Blueprint_WeaponD108=设计图：^i神话的新月
 tagGDX1Blueprint_WeaponD109=设计图：^i神话的德里格的瘟疫使者
 tagGDX1Blueprint_WeaponD110=设计图：^i神话的贝若纳斯，重铸之剑
-tagGDX1Blueprint_WeaponD111=设计图：^i神话的风暴撕裂者
+tagGDX1Blueprint_WeaponD111=设计图：^i神话的风暴掠夺者
 tagGDX1Blueprint_WeaponD112=设计图：^i神话的弧光大剑
 tagGDX1Blueprint_WeaponD113=设计图：^i神话的阿斯特堪碎片
 tagGDX1Blueprint_WeaponD114=设计图：^i神话的冥神之牙
@@ -1006,7 +1007,7 @@ tagGDX1Blueprint_ArmorD110=设计图：^i至高之神的凝视
 tagGDX1Blueprint_ArmorD113=设计图：^i迷失灵魂面具
 tagGDX1Blueprint_ArmorD114=设计图：^i奥克塔维尔斯的面甲
 tagGDX1Blueprint_ArmorD115=设计图：^i戈尔巴的面罩
-tagGDX1Blueprint_ArmorD116=设计图：^i黑火头盔
+tagGDX1Blueprint_ArmorD116=设计图：^i黑焰头盔
 tagGDX1Blueprint_ArmorD117=设计图：^i法术天灾面甲
 tagGDX1Blueprint_ArmorD118=设计图：^i法师杀手的面罩
 tagGDX1Blueprint_ArmorD119=设计图：^i瓦尔古尔的珍宝
@@ -1654,7 +1655,7 @@ tagGDX1ItemSetD107Desc="帕里奥纳·达尔的装备，黑色军团的持盾少
 tagGDX1ItemSetD108Name=戈尔巴的愤怒
 tagGDX1ItemSetD108Desc="戈尔巴的铠甲，罗斯纳尔的野蛮女儿，绰号白狼毒牙。"
 
-tagGDX1ItemSetD109Name=黑火装束
+tagGDX1ItemSetD109Name=黑焰装束
 tagGDX1ItemSetD109Desc="女巫之神索拉尔制作的装备，在三巫神之战期间赐予他的仆从。"
 
 tagGDX1ItemSetD110Name=法术天灾
@@ -1709,7 +1710,7 @@ tagItemSetD007BName=屠魔者的装束
 tagItemSetD008BName=枪械师的双枪
 tagItemSetD009BName=野性之血先锋
 tagItemSetD010BName=洞察者
-tagItemSetD011BName=召魔者的元素
+tagItemSetD011BName=召魔者的意志
 tagItemSetD012BName=马尔科夫的堡垒
 tagItemSetD013BName=奥祖因的炼狱化身
 tagItemSetD014BName=德里格的罩衣
@@ -1837,7 +1838,7 @@ tagGDX1Chest_MadRamblingsReward=伊旺达的礼物
 tagGDX1Chest_MadRamblingsLoot=伊旺达的藏匿物
 tagGDX1Chest_MadRamblingsNote=伊旺达的宝箱
 
-tagGDX1Chest_KatrineCorpse=卡崔因的遗骸
+tagGDX1Chest_KatrineCorpse=卡特琳的遗骸
 tagGDX1Chest_RenochCorpse=瑞诺什的遗骸
 tagGDX1Chest_UnknownCorpse=腐尸
 
@@ -1889,7 +1890,6 @@ tagGDX1EpicDoor_AncientGroveLocked= {^R} ~ 被莫格卓根封印着 (需要一�
 tagGDX1Door_Vine=藤蔓
 tagGDX1Door_Flesh=活体血肉之门
 tagGDX1Door_Puppetmaster=活体血肉之门
-+
 
 #DLC
 tagGDX1DLCIllusionA01=幻化：暗黑骑士盔甲
@@ -1907,7 +1907,15 @@ tagGDX1DLCA03Desc="尊崇龙将军收藏品。"
 
 tagGDX1DLCIllusionA04=幻化：白巫师
 tagGDX1DLCA04=白巫师华服
-tagGDX1DLCA04Desc="神秘的白巫师华服。"
+tagGDX1DLCA04Desc="神秘白巫师的华服。"
+
+tagGDX1DLCIllusionA05=幻化：黑巫师
+tagGDX1DLCA05=黑巫师华服
+tagGDX1DLCA05Desc="邪恶黑巫师的华服。"
+
+tagGDX1DLCIllusionA06=幻化：巨狼盔甲
+tagGDX1DLCA06=巨狼盔甲
+tagGDX1DLCA06Desc="狂怒巨狼盔甲"
 
 tagGDX1DLCIllusionHelmInvisible=隐形头盔
 tagGDX1DLCIllusionHelmInvisibleDesc="100％的保护和0％的重量。 而且不含乳制品。"
@@ -1915,3 +1923,5 @@ tagGDX1DLCIllusionHelmInvisibleDesc="100％的保护和0％的重量。 而且�
 tagGDX1DLCIllusionShouldersInvisible=隐形护肩
 tagGDX1DLCIllusionShouldersInvisibleDesc="100％的保护和0％的重量。 而且不含乳制品。"
 
+tagGDX1DLCIllusionMedalInvisible=隐形勋章
+tagGDX1DLCIllusionMedalInvisibleDesc="100%的表彰却没有别针。而且不含乳制品。"

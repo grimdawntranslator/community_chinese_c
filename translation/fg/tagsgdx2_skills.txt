@@ -1,6 +1,6 @@
 tagSkillClassName09=^f守誓
 
-tagSkillClassName0109=^g战争领主^y(^o战士^s+^f守誓^y)
+tagSkillClassName0109=^g战争领主^y(^o士兵^s+^f守誓^y)
 tagSkillClassName0209=^g破盾者^y(^r爆破^s+^f守誓^y)
 tagSkillClassName0309=^g哨兵^y(^l神秘^s+^f守誓^y)
 tagSkillClassName0409=^g狂舞者^y(^z夜刃^s+^f守誓^y)
@@ -71,7 +71,7 @@ tagGDX2Class09SkillDescription07B=正义之火在守誓者的灵魂中燃烧，�
 
 tagGDX2Class09SkillName08A=^g「^f守誓^g」^b召唤至高神守护者^-
 tagGDX1Class09SkillTracker08A=已召唤守护者数量
-tagGDX2Class09SkillDescription08A=召唤至高之神的忠诚仆从，执行天神审判，劈斩敌人。
+tagGDX2Class09SkillDescription08A=召唤至高之神的忠诚仆从，执行天神审判，劈斩敌人。^o天界守护者会受到玩家伤害加成的影响。
 tagGDX2Class09SkillName08B=^g「^f守誓^g」^b天神化身^-
 tagGDX2Class09SkillDescription08B=守护者的出现会灼烧异教徒们的灵魂。
 tagGDX2Class09SkillName08C=德里格之嗣
@@ -88,7 +88,7 @@ tagGDX2Class09SkillDescription10A=无论是以至高神之名举起盾牌，还�
 tagGDX2Class09SkillName11A=^g「^f守誓^g」^b护卫^-
 tagGDX2Class09SkillDescription11A=在久经沙场的守誓者手中，盾牌不仅是坚不可摧的防具，还是令人惧怕的武器。^o这是一项盾牌加成。
 tagGDX2Class09SkillName12A=^g「^f守誓^g」^b重击^-
-tagGDX2Class09SkillDescription12A=由守誓者正义之怒发动的精确打击，能震慑并重创敌人。经过充足的训练，这项技艺甚至可以由盾牌来发动。^o所有默认武器攻击均可激活该技能效果。当装备近战武器和盾牌时，盾牌将会同时发动打击。
+tagGDX2Class09SkillDescription12A=由守誓者正义之怒发动的精确打击，能震慑并重创敌人。经过充足的训练，这项技艺甚至可以由盾牌来发动。 ^o所有默认武器攻击均可激活该技能效果。当装备近战武器和盾牌时，盾牌将会同时发动打击。
 tagGDX2Class09SkillName13A=^g「^f守誓^g」^b粉碎猛击^-
 tagGDX2Class09SkillDescription13A=这是持盾守誓者的超凡技艺，打击所产生的共鸣力量能穿透地面，并从初始目标发出附加的冲击波。^o这是一项盾牌战斗技艺，由默认武器攻击触发。需要一把近战武器与盾牌。[直线aoe]。
 
@@ -114,6 +114,9 @@ tagGDX2ItemSkillC204Desc=通过巫术的蔓延来使你敌人自身溃烂。
 
 tagGDX2ItemSkillC205Name=放血
 tagGDX2ItemSkillC205Desc=让那些胆敢阻拦你脚步的异教徒血溅当场。
+
+tagGDX2ItemSkillC206Name=夜幕
+tagGDX2ItemSkillC206Desc=向你的敌人释放一股强烈的饥渴能量。
 
 tagGDX2ItemSkillD201Name=血泉
 tagGDX2ItemSkillD201Desc=血红的喷泉从敌人脚下爆发，让他们被血雨所笼罩。
@@ -203,7 +206,7 @@ tagGDX2ItemSkillD228Name=枯萎感染
 tagGDX2ItemSkillD228Desc=一种可以在你的敌人之间传播使他们虚弱、意志消沉的传染病。
 
 tagGDX2ItemSkillD229Name=召唤恐惧织网者
-tagGDX2ItemSkillD229Desc=在扭曲环境中凭借可怕的能量从邪术领域中召唤织网者。这个召唤物的存在是不稳定，因此它们只会存在很短的时间就返回它们的巢穴。^o织网者受到宠物伤害加成影响。
+tagGDX2ItemSkillD229Desc=在扭曲环境中凭借可怕的能量从邪术领域中召唤织网者。这个召唤物的存在是不稳定，因此它们只会存在很短的时间就返回它们的巢穴。^o织网者会受到战宠加成的影响。
 tagGDX2ItemSkillD229_Pet01=蜘蛛獠牙
 
 tagGDX2ItemSkillD230Name=邪术碎片
@@ -220,7 +223,7 @@ tagGDX2ItemSkillD232Name=枯萎领主的馈赠
 tagGDX2ItemSkillD232Desc=枯萎领主的馈赠会标记你的敌人，给予你的敌人虚弱诅咒从而更容易传播与感染。
 
 tagGDX2ItemSkillD233Name=召唤邪能利爪
-tagGDX2ItemSkillD233Desc=召唤一个恶魔与你并肩作战。邪能利爪将会撕裂附近敌人的存在。^o同一时间只能召唤一只邪能利爪。邪能利爪会受到战宠加成影响。
+tagGDX2ItemSkillD233Desc=召唤一个恶魔与你并肩作战。邪能利爪将会撕裂附近敌人的存在。^o同一时间只能召唤一只邪能利爪。邪能利爪会受到战宠加成的影响。
 tagGDX2ItemSkillD233_Pet01=邪能之爪
 tagGDX2ItemSkillD233_Pet02=邪能动荡
 tagGDX2ItemSkillD233_Pet02Desc=邪能利爪将会撕裂附近的敌人，削弱他们的抗性和攻击。
@@ -261,6 +264,52 @@ tagGDX2ItemSkillD244Desc=受折磨的灵魂会侵袭你的敌人并迅速将其�
 tagGDX2ItemSkillD245Name=幻影之刃
 tagGDX2ItemSkillD245Desc=一把拥有意志的刀刃飞向敌人，刺穿沿途的一切。
 
+tagGDX2ItemSkillD246Name=致命的手段
+tagGDX2ItemSkillD246Desc=都给我死！^o这是近战双持与远程双持的被动加成。同时开启双持武器的能力。
+
+tagGDX2ItemSkillD247Name=塔戈之锤
+tagGDX2ItemSkillD247Desc=塔戈的天神锤会飞向你的敌人，再飞回你手中。
+
+tagGDX2ItemSkillD248Name=夜拥
+tagGDX2ItemSkillD248Desc=从现实中撕开一道裂隙，爆发出强烈的饥渴之力。
+tagGDX2ItemSkillD248PetSkillName=饥渴之力
+tagGDX2ItemSkillD248PetSkillDesc=强烈的饥渴之力爆发而出，消耗敌人的生命。
+
+tagGDX2ItemSkillD249Name=赛瑟瑞斯之眼
+tagGDX2ItemSkillD249Desc=受诅之眼围绕着你，穿透敌人的身体，直击灵魂。
+tagGDX2ItemSkillD250Name=奥利西亚之眼
+tagGDX2ItemSkillD251Name=阿努巴之眼
+tagGDX2ItemSkillD252Name=塔罗特之眼
+tagGDX2ItemSkillD253Name=巴斯蒂之眼
+tagGDX2ItemSkillD254Name=舒罗斯之眼
+
+tagGDX2ItemSkillD255Name=孔萨尔的凝视
+tagGDX2ItemSkillD255Desc=孔萨尔的凝视落在你的仆从身上，使他们充满愤恨。
+
+tagGDX2ItemSkillD256Name=尤戈尔的祈祷
+tagGDX2ItemSkillD256Desc=祈求诅咒星辰的仪式，召唤出巨大的天界饥渴的表象。^o表象会受到玩家伤害加成的影响。
+tagGDX2ItemSkillD256PetSkill_Name=挥打
+tagGDX2ItemSkillD256PetSkill2_Name=黑暗降临
+
+tagGDX2ItemSkillD257Name=剧毒爆发
+tagGDX2ItemSkillD257Desc=在你身边爆发一股腐蚀性的毒素。
+
+tagGDX2ItemSkillD258Name=幻影新星
+tagGDX2ItemSkillD258Desc=在你身边爆发一阵幻影刀刃。
+
+tagGDX2ItemSkillD259Name=地穴追猎者
+tagGDX2ItemSkillD259Desc=你的存在让附近的敌人充满了对地穴的恐惧。
+
+tagGDX2ItemSkillD260Name=帷幕波纹
+tagGDX2ItemSkillD260Desc=一股强大的虚化能量从你身上荡漾而出。
+
+tagGDX2ItemSkillD261Name=海瑞恩之爪
+tagGDX2ItemSkillD261Desc=用你盾牌里已注入的海瑞恩之力猛击你的敌人。
+
+tagGDX2ItemSkillD262Name=世界之门
+tagGDX2ItemSkillD262Desc=在现实中撕开一道裂隙，将站在其中的敌人分割开来。^o世界之门会受到战宠加成的影响。
+tagGDX2ItemSkillD262PetSkill_Name=分割
+
 
 #Component Skills
 tagGDX2CompSkillA033Name=虚空弹药
@@ -281,7 +330,7 @@ tagGDX2RelicSkillD202Name=维尔爆发
 tagGDX2RelicSkillD202Desc=猛击地面，并且使你面前的地面呈现扇形的破碎区域。
 
 tagGDX2RelicSkillD203Name=沙暴
-tagGDX2RelicSkillD203Desc=像你的敌人释放沙暴。^o沙暴受到人物伤害的加成。
+tagGDX2RelicSkillD203Desc=像你的敌人释放沙暴。^o沙暴会受到玩家伤害加成的影响。
 
 tagGDX2RelicSkillD204Name=饥渴之触
 tagGDX2RelicSkillD204Desc=把你的愤怒集中在代表你饥渴的旋风中，只要你持续施法就会消耗你周围人的鲜血。 ^o需要一把近战武器。攻速为100%时，饥渴之触每0.16秒造成伤害并消耗能量。
@@ -316,16 +365,16 @@ tagGDX2Devotion_A203Desc=圣甲虫匆匆掠过夜空，寻觅着可供其钻洞�
 tagGDX2Devotion_A204=莲花 ^g[初级](恢复，4换5)
 tagGDX2Devotion_A204Desc=幸运的天兆。据说在光明中出生的人将会有幸福与和平的一生。
 
-tagGDX2Devotion_B201=奥扎德，寇瓦克的使者 ^g[中级]（物理系『增伤buff』，6换4）
+tagGDX2Devotion_B201=寇瓦克的使者 ~ 奥扎德 ^g[中级]（物理系『增伤buff』，6换4）
 tagGDX2Devotion_B201Desc=一个只忠于寇瓦克的巨人，奥扎德向所有臣民宣布他的主人即将降临。在失去主人的号令后，奥扎德变得幻灭且迷茫，最终陷入疯狂和绝望之中。
-tagGDX2Devotion_B202=海瑞恩，天国之门的守护者 ^g[中级]（元素系『反击附加技能』，6换4）
-tagGDX2Devotion_B202Desc=海瑞恩是创建者塔戈的不朽造物，数千年前是为了守护原始神灵所居住的*神之壁毯*而创造。
+tagGDX2Devotion_B202=天国之门的守护者 ~ 海瑞恩 ^g[中级]（元素系『反击附加技能』，6换4）
+tagGDX2Devotion_B202Desc=海瑞恩是创建者塔戈的不朽造物，数千年前是为了守护原始神灵所居住的神之壁毯而创造。
 
-tagGDX2Devotion_C201=寇瓦克，邪阳 ^g[高级]（召唤，辅助攻击，6）
-tagGDX2Devotion_C201Desc=邪恶的太阳再次升起，自宣天神之王。
-tagGDX2Devotion_C202=阿兹拉卡，永恒之沙 ^g[高级]（穿刺、物理系，速度，6）
+tagGDX2Devotion_C201=邪术之阳 ~ 寇瓦克 ^g[高级]（召唤，辅助攻击，6）
+tagGDX2Devotion_C201Desc=邪术之阳再次升起，自宣天神之王。
+tagGDX2Devotion_C202=永恒之沙 ~ 阿兹拉卡 ^g[高级]（穿刺、物理系，速度，6）
 tagGDX2Devotion_C202Desc=阿兹拉卡，伊恩的永恒伴星，是她创造了，决定凡人命运的时光守护者手中的时之沙。她是他的配偶，也是最值得信赖的顾问，她能缓和伊恩的严苛审判，并为她所怜爱的凡人提供慰藉。
-tagGDX2Devotion_C203=尤戈尔，无尽贪夜 ^g[高级]（冰系，酸系，类召唤技能，6）
+tagGDX2Devotion_C203=无尽贪夜 ~ 尤戈尔 ^g[高级]（冰系，酸系，类召唤技能，6）
 tagGDX2Devotion_C203Desc=当至高神的光辉第一次照耀到众生之外时，众神发现一个巨大的黑暗在虚无中膨胀。只有一个名字：尤戈尔。尤戈尔那无尽的饥渴威胁着要吞噬原神精心创造的一切，只有千万颗星星的怜悯之光才能阻止它的前进。
 
 tagGDX2DevotionEffectB201=奥扎德的法令
@@ -647,3 +696,13 @@ tagGDX2EnemySkillD15_Desc=一座附近的雕像增强了寇瓦克并对凡人造
 
 tagGDX2EnemySkillD16=嚎风
 tagGDX2EnemySkillD16_Desc=一股强大的刺骨寒风将导致你使用的投射物无法命中目标。
+
+
+tagGDX2EnemySkillD17=恐怖幻象
+tagGDX2EnemySkillD17_Desc=目睹了无尽饥渴吞噬着黑暗，使你耗尽了所有的力量。
+
+tagGDX2EnemySkillD18=饥渴黑夜
+tagGDX2EnemySkillD18_Desc=黑暗巫师削弱了你的身髓，吞噬了你的生命，破坏了你的抗性。
+
+tagGDX2EnemySkillD19=瓦解意志
+tagGDX2EnemySkillD19_Desc=你的意识无法处理目睹的恐怖景象，破坏了你瞄准和施法的能力。
