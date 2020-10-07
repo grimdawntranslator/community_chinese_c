@@ -175,6 +175,7 @@ tagWeaponAxeB004=^w骨斧
 tagWeaponAxeB005=^l骨镰
 tagWeaponAxeB006=^g奥尔曼的斧头
 tagWeaponAxeB007=^l虚化扭曲之斧
+tagWeaponAxeB008=^l虚化焦灼之斧
 
 tagWeaponAxeC001=残忍之锋
 tagWeaponAxeC002=夺魂者之触
@@ -442,7 +443,7 @@ tagWeaponMelee2hD003Desc="刺客大师贝拉诺的非常规武器，没有几个
 tagWeaponMelee2hD004=黑曜石主宰
 tagWeaponMelee2hD004Desc="锻造于一座活火山的熔岩深渊之中。"
 tagWeaponMelee2hD005=地狱硫磺
-tagWeaponMelee2hD005Desc="当圣骑士阿里斯特·熔炉受祝福的长矛刺穿一位强大恶魔的心脏时，这把武器诞生了。"
+tagWeaponMelee2hD005Desc="当帕拉丁阿里斯特·熔炉受祝福的长矛刺穿一位强大恶魔的心脏时，这把武器诞生了。"
 tagWeaponMelee2hD006=风暴掠夺者
 tagWeaponMelee2hD006Desc="经过无数次闪电风暴的充能，这把武器上的自然之怒已蓄势待发。"
 tagWeaponMelee2hD007=凛冬之王的灾祸
@@ -551,7 +552,7 @@ tagWeaponCaster1hD014=蛇怪之爪
 tagWeaponCaster1hD015=洞察者的法杖
 tagWeaponCaster1hD016=德里格的符文匕首
 tagWeaponCaster1hD017=特洛赞的繁星看守者
-tagWeaponCaster1hD018=黑炎剑
+tagWeaponCaster1hD018=黑炎之刃
 tagWeaponCaster1hD019=^f奥德里奇的命令
 tagWeaponCaster1hD019Desc="在下达他人生中最后一道命令之后，范·奥德里奇将整座城市葬送在了恐怖黎明之中。"
 
@@ -1449,7 +1450,7 @@ tagHandsD004=骸骨拾荒者的死亡之握
 tagHandsD004Desc="亡灵法师施法时使用的手套，上面依然存在着恐怖的魔力。"
 tagHandsD005=龙骨护手
 tagHandsD006=寒冰蔑视之爪
-tagHandsD007=毒蛇之牙护手
+tagHandsD007=蝮牙之握
 tagHandsD008=虚化之触
 tagHandsD009=巨像之握
 tagHandsD010=正义护手
@@ -1474,6 +1475,8 @@ tagLegsA006=^w护腿
 tagLegsB001=^l德里格宗派护腿
 tagLegsB002=^l索拉尔宗派护腿
 tagLegsB003=^l拜斯迈宗派护腿
+tagLegsB004=^l安娜斯特瑞娅的护腿
+tagLegsB005=^l安娜斯特瑞娅的绑腿
 
 tagLegsC001=雾行长裤
 tagLegsC002=隐士护腿
@@ -3718,8 +3721,8 @@ tagItemSetC023Desc="久战沙场的老兵所穿的装甲，是对他们在战场
 tagItemSetC024Name=持火者
 tagItemSetC024Desc="一颗炽烈的心脏，内部灌注了一只火焰之灵。"
 
-tagItemSetC025Name=卡里多的徽记
-tagItemSetC025Desc="卡里多大师的器物，崇尚奥术师并创造了奥术风暴的技艺。"
+tagItemSetC025Name=卡里多的华服
+tagItemSetC025Desc="大师卡里多的装备，受尊崇的奥术师以及奥术风暴技艺的创造者。"
 
 tagItemSetC026Name=密尔弥冬的装甲
 tagItemSetC026Desc="黑色军团发放给精英先锋的装甲。"
@@ -3794,7 +3797,7 @@ tagItemSetD020Name=毒刃契约
 tagItemSetD020Desc="一群精于在武器上涂毒的夜刃穿着的护甲。"
 
 tagItemSetD021Name=黑炎圣约
-tagItemSetD021Desc="苍白之神的圣衣，他乃索拉尔之师，精于使用黑炎。"
+tagItemSetD021Desc="索拉尔黑炎大师，苍白之神的圣衣。"
 
 tagItemSetD022Name=光明卫士
 tagItemSetD022Desc="信仰的守护者，至高神之光的卫士。"

@@ -332,7 +332,10 @@ tagGDX1HeadB103=^l帕克拉的皮肤
 tagGDX1HeadB103_Desc="你不知道这个面具由多少受害者组成。"
 tagGDX1HeadB104=^l帕克拉的面容
 tagGDX1HeadB104_Desc="这个面具带来的恶臭令人无法忍受。"
-
+tagGDX1HeadB105=^l死亡低语兜帽
+tagGDX1HeadB106=^l裂天者头环
+tagGDX1HeadB107=^l纳梅迪亚之角
+tagGDX1HeadB107_Desc="死亡的寒意笼罩在这个帽子之上。"
 
 tagGDX1HeadC101=灵魂之环
 tagGDX1HeadC101_Desc="被困在圈中的灵魂有时会把秘密告诉持有者，虽然也许不总是把持有者的最佳利益放在心上。"
@@ -808,6 +811,8 @@ tagGDX1MedalB108=^y守望者徽章
 tagGDX1MedalB109=^l斯拉萨尔的盾徽
 tagGDX1MedalB109_Desc="利齿充满着被虚化力量扭曲的毒液。"
 tagGDX1MedalB110=^l普拉格尤斯的标记
+tagGDX1MedalB111=^l纳梅迪亚之眼
+tagGDX1MedalB111_Desc="毫无生机的眼球仍在抽搐。"
 
 tagGDX1MedalC101=神圣标记
 tagGDX1MedalC102=罪恶标记
@@ -1167,7 +1172,7 @@ tagGDX1RelicD110Desc="沉醉杀戮。"
 tagGDX1RelicD111=^i死灵Lv90^h-^c尤若布鲁克的收割
 tagGDX1RelicD111Desc="不死领主的亲传。"
 tagGDX1RelicD112=^i审判Lv90^h-^c伊格纳法的燃烧
-tagGDX1RelicD112Desc="伊格纳法之石是光明会修复并净化的古代墓葬中的神器 。"
+tagGDX1RelicD112Desc="伊格纳法之石是光明会修复并净化的古代墓葬中的神器。"
 tagGDX1RelicD113=^y全技能^h-^c莫格卓根的热忱
 tagGDX1RelicD113Desc="孤狼之死，群狼而生。"
 tagGDX1RelicD114=^im^h-^c死亡追猎者
@@ -1494,34 +1499,34 @@ tagGDX1EnchantC109Desc="来自掠夺者的礼物，强化凡体。"^w^n(用于�
 #ItemComponents 镶嵌物
 
 tagGDX1CompA101Name=^g03^h-^e力量之印
-tagGDX1CompA101Desc="伟大尤尔加德佩戴的印章，聚集了大量造物主的奥术能量转为无与伦比的物理力量。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA101Desc="伟大尤尔加德佩戴的印章，聚集了大量造物主的奥术能量转为无与伦比的物理力量。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA102Name=^g02^h-^e刀刃之印
-tagGDX1CompA102Desc="传说夜刃贝尔戈斯安设计的印章，加强刺客的致命攻击并使目标血流不止。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA102Desc="传说夜刃贝尔戈斯安设计的印章，加强刺客的致命攻击并使目标血流不止。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA103Name=^g04^h-^e天空之印
-tagGDX1CompA103Desc="奥术大师特洛赞佩戴的第一枚印章，能够召唤天空的力量。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA103Desc="奥术大师特洛赞佩戴的第一枚印章，能够召唤天空的力量。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA104Name=^g07^h-^e疫病之印
-tagGDX1CompA104Desc="这枚印章注入了三巫神的力量，能唤起受害者曾遭受过的每一种疾病。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA104Desc="这枚印章注入了三巫神的力量，能唤起受害者曾遭受过的每一种疾病。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA105Name=^g08^h-^e腐败之印
-tagGDX1CompA105Desc="虽然这枚印章的创造者已被历史遗忘，但它仍有驾驭虚化的能力。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA105Desc="虽然这枚印章的创造者已被历史遗忘，但它仍有驾驭虚化的能力。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA106Name=^g09^h-^e虚空之印
-tagGDX1CompA106Desc="制做这枚印章的方法非常邪恶。那些使用它的人堕落且渴望力量。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA106Desc="制做这枚印章的方法非常邪恶。那些使用它的人堕落且渴望力量。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA107Name=^g10^h-^e黑夜之印
-tagGDX1CompA107Desc="夜刃阿玛拉斯塔为了实现一个特殊目标而设计的印章。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA107Desc="夜刃阿玛拉斯塔为了实现一个特殊目标而设计的印章。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA108Name=^g06^h-^e毁灭之印
-tagGDX1CompA108Desc="为了奥祖因的荣耀而创造的印章，燃烧将毁灭那些藐视天神之人。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA108Desc="为了奥祖因的荣耀而创造的印章，燃烧将毁灭那些藐视天神之人。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA109Name=^g05^h-^e暗影之印
-tagGDX1CompA109Desc="夜刃尼达拉的最爱，能将刺骨的酸性注入武器。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA109Desc="夜刃尼达拉的最爱，能将刺骨的酸性注入武器。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA110Name=^g01^h-^e共鸣之印
-tagGDX1CompA110Desc="按照光明会精确的标准制成，这枚印章可以强化武器的魔法属性，甚至不精通奥术的人也可使用。"^w^n(用于所有类型的武器，盾牌和副手法器)
+tagGDX1CompA110Desc="按照光明会精确的标准制成，这枚印章可以强化武器的魔法属性，甚至不精通奥术的人也可使用。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA111Name=^g11^h-^e污染之心
 tagGDX1CompA111Desc="一颗仍在跳动的心脏，跳动伴随着虚化腐败。"^w^n(用于项链和勋章)
@@ -1610,7 +1615,7 @@ tagGDX1ItemSetC103Name=烈火先知
 tagGDX1ItemSetC103Desc="你的心脏是燃烧的余烬，无法熄灭且渴望破坏。"
 
 tagGDX1ItemSetC104Name=法师领主
-tagGDX1ItemSetC104Desc="霍尔戈斯·伊芙琳曾经佩戴的徽章，帝国宫廷的尊敬成员，一名奥术师。"
+tagGDX1ItemSetC104Desc="霍尔戈斯·伊芙琳曾经穿过的华服，帝国宫廷的尊敬成员，一名奥术师。"
 
 tagGDX1ItemSetC105Name=恐惧行者
 tagGDX1ItemSetC105Desc="恐惧行者的出现使附近的活物陷入不可思议的疾病。"
@@ -1657,7 +1662,7 @@ tagGDX1ItemSetD108Name=戈尔巴的愤怒
 tagGDX1ItemSetD108Desc="戈尔巴的铠甲，罗斯纳尔的野蛮女儿，绰号白狼毒牙。"
 
 tagGDX1ItemSetD109Name=黑焰装束
-tagGDX1ItemSetD109Desc="女巫之神索拉尔制作的装备，在三巫神之战期间赐予他的仆从。"
+tagGDX1ItemSetD109Desc="在三巫神激战期间，由巫神索拉尔制作并赐予他仆从的法器。"
 
 tagGDX1ItemSetD110Name=法术天灾
 tagGDX1ItemSetD110Desc="战斗与奥术技艺之间难以置信的结合，用符文印刻在这铠甲之上。"

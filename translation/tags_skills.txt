@@ -124,7 +124,7 @@ tagClass01SkillName05C=风卷残云
 tagClass01SkillDescription05C=刀锋横扫更为强力的一种形式，士兵在攻击中施展猛击，将敌人击倒在地。
 
 tagClass01SkillName06A=^g「^f士兵^g」^b马尔科夫优势^-
-tagClass01SkillDescription06A=著名战术家马尔科夫总是谋划从高处进攻。这个经典的攻击灵感正是来自马尔科夫的战术，招牌是强力的向下攻击，摔绊敌人让他们失去平衡，削弱他们的防御。^o所有武器均可激活该技能效果。
+tagClass01SkillDescription06A=著名战术家马尔科夫总是谋划从高处进攻。这个经典的攻击灵感正是来自马尔科夫的战术，招牌是强力的向下攻击，摔绊敌人让他们失去平衡，削弱他们的防御。^o所有默认武器攻击均可激活该技能效果。
 tagClass01SkillName06B=^g「^f士兵^g」^b佐尔汉的技艺^-
 tagClass01SkillDescription06B=以一个著名的格斗大师命名，攻击时放低重心，猛推敌人来使他们失去平衡。^o当使用一把近战武器发动时，会击中附近多个目标。^o所有默认武器攻击均可激活该技能效果。
 
@@ -146,7 +146,7 @@ tagClass01SkillName12A=^g「^f士兵^g」^b功勋卓著^-
 tagClass01SkillDescription12A=在白热化的战场上保持冷静思考的能力，使老兵们能够更轻易地切入敌人的防御空档，或是预判敌人的攻击节奏来实施反击。
 
 tagClass01SkillName13A=^g「^f士兵^g」^b曼海尔的壁垒^-
-tagClass01SkillDescription13A=召唤大地之神曼海尔，护佑其追随者拥有大地般的坚韧。^o需要一面盾牌。这项技能必须保持开启以持续生效。
+tagClass01SkillDescription13A=召唤大地之神曼海尔，护佑其追随者拥有大地般的坚韧。^o需要一面盾牌或双手近战武器。这项技能必须保持开启以持续生效。
 
 tagClass01SkillName14A=^g「^f士兵^g」^b奥莱隆之怒^-
 tagClass01SkillDescription14A=召唤远古战神奥莱隆，鼓舞其追随者燃起无法动摇的凶猛战意。^o这项技能必须保持开启以持续生效。
@@ -211,7 +211,7 @@ tagClass02SkillDescription05A=放置持续向空中抛射爆炸物的迫击炮�
 tagClass02SkillName05B=^g「^f爆破^g」^b重型武器^-
 tagClass02SkillDescription05B=强力的法术提升迫击炮弹的伤害并附加电能伤害。^o同时影响基本的迫击炮技能和巨型炸弹。
 tagClass02SkillName05C=^g「^f爆破^g」^b巨型炸弹^-
-tagClass02SkillDescription05C=向迫击抛射器装载代号为“大家伙”的毁灭性炸弹，将向迫击抛射炮弹幕的初始方向发射。即便你的敌人存活下来，由此产生的巨大的爆炸也将给他们造成极度的恐慌。
+tagClass02SkillDescription05C=向迫击抛射器装载代号为“大家伙”的毁灭性炸弹，将向迫击抛射炮弹幕的初始方向发射并周期性地持续轰炸。即便你的敌人存活下来，由此产生的巨大的爆炸也将给他们造成极度的恐慌。
 tagClass02SkillName05D=火力迫击炮
 tagClass02SkillDescription05D=向敌人发射爆炸的迫击炮弹。
 tagClass02SkillName05E=电击迫击炮
@@ -226,7 +226,7 @@ tagClass02SkillDescription06C=喷射一束致命的白热火焰将经过的敌�
 tagClass02SkillName06D=引爆
 
 tagClass02SkillName07A=^g「^f爆破^g」^b防爆护盾^-
-tagClass02SkillDescription07A=军事装备与火焰法术的融合创造出能够加强防御并偏转一定量所有类型伤害的护盾。攻击你的敌人会受到护盾的炽烈反击。^o爆破主力防护技能。
+tagClass02SkillDescription07A=军事装备与火焰法术的融合创造出能够加强防御并偏斜一定量所有类型伤害的护盾。攻击你的敌人会受到护盾的炽烈反击。
 tagClass02SkillName07B=^g「^f爆破^g」^b奥祖因的选召^-
 tagClass02SkillDescription07B=在烟火制造工作中做出很大贡献的那些人最终得到奥祖因的青睐，获得他的祝福，可以对世界造成炽烈破坏。^o影响眩晕投掷，手榴弹和罐式炸弹并需要其中的技能之一才能生效。
 
@@ -352,11 +352,11 @@ tagClass03SkillName14A=^g「^f神秘^g」^b末日闪电^-
 tagClass03SkillDescription14A=施放一束能够撕裂现实世界的熵能闪电，任何被它击中的敌人都将遭受重创。^o当闪电直接击中目标将造成双倍伤害。容易被环境物体阻挡。
 
 tagClass03SkillName07A=妖术净化
-tagClass03SkillDescription07A=使敌人的法术失效，并且基于敌人剩余的能量值造成法力燃烧伤害。
+tagClass03SkillDescription07A=使敌人的法术失效，并且基于敌人剩余的能量值造成能量燃烧伤害。
 tagClass03SkillName08A=混沌之箭
 tagClass03SkillDescription08A=施放大量的熵能，撕碎敌人的肉身。
 tagClass03SkillName08B=能量燃烧
-tagClass03SkillDescription08B=在增强混沌伤害的同时，燃烧掉一部分敌人的能量并且造成法力燃烧伤害。
+tagClass03SkillDescription08B=在增强混沌伤害的同时，燃烧掉一部分敌人的能量并且造成能量燃烧伤害。
 tagClass03SkillName09A=守护之环
 tagClass03SkillDescription09A=在施法者周围制造一个魔法圆环，圆环能够恢复生命并且击退敌人。
 tagClass03SkillName15A=拜斯迈的庇护
@@ -399,7 +399,7 @@ tagClass04SkillDescription04C=强力的气动技巧使钢铁之环从附近的�
 
 tagClass04SkillName05A=^g「^f夜刃^g」^b双刃^-
 tagClass04SkillDescription05A=夜刃技能中最基本的便是对近战双持的精通，他们喜欢使用尖利的刀刃，以及使钢铁中产生元素之寒的技艺。^o这是一项双持技能。同时开启双持近战武器的能力。
-tagClass04SkillName05B=^g「^f夜刃^g」^b贝尔戈斯安的力斩^-
+tagClass04SkillName05B=^g「^f夜刃^g」^b贝尔戈斯安的切割^-
 tagClass04SkillDescription05B=健壮的贝尔戈斯安是轻盈的夜刃大师中的异数，不过他在原始的力量上超越了他们。借助于他的力量，如剪刀般直接致命的攻击，贝尔戈斯安经常一击终结敌人。^o这是一项近战双持技能，由默认武器攻击触发。
 tagClass04SkillName05C=^g「^f夜刃^g」^b阿玛拉斯塔的瞬影^-
 tagClass04SkillDescription05C=因其速度而成为传奇，阿玛拉斯塔的刀刃据说像一条空气中的鞭子，只留下一条快得肉眼难以捕捉的光线。这项技艺的大师能够在普通攻击的时间内打击三次。^o这是一项近战双持技能。由默认武器攻击触发。
@@ -414,9 +414,9 @@ tagClass04SkillName06A=^g「^f夜刃^g」^b气爆^-
 tagClass04SkillDescription06A=夜刃的一种绝密武技，从周围吸取精华和“元气”以达到短时间内速度与力量的爆发。由此产生的新陈代谢加速也会轻微治疗夜刃的身体。^o夜刃万用buff。
 tagClass04SkillName06B=^g「^f夜刃^g」^b暗影舞^-
 tagClass04SkillDescription06B=针对战斗的冥想练习将使你能够在酣战之中保持心中的清明，看破敌人来袭的路线巧妙地躲避敌人的攻击。^o增加双闪，提高生存能力。
-tagClass04SkillName06C=^g「^f夜刃^g」^b元素诀^-
+tagClass04SkillName06C=^g「^f夜刃^g」^b元素觉醒^-
 tagClass04SkillDescription06C=夜刃宗师们能够从空气中，甚至与敌人短兵相接中汲取能量，然后施放冰冷的攻击。
-tagClass04SkillName06D=集气诀
+tagClass04SkillName06D=贝尔戈斯安的呼吸
 tagClass04SkillDescription06D=以夜刃的标准来说，肌肉过于发达和速度迟缓的贝尔戈斯安，他成功的一部分归功于通过对元气呼吸技巧的深刻掌握而获得的生命恢复能力与对敌能力。^o这是一项近战双持技能。同时开启双持近战武器的能力。
 
 tagClass04SkillName07A=^g「^f夜刃^g」^b暗影面纱^-
@@ -462,14 +462,14 @@ tagClass04SkillDescription12A=吸取周围敌人的生气，以敌人流失的�
 tagClass04SkillName13D=^g「^f夜刃^g」^b无情终章^-
 tagClass04SkillDescription13D=有时，高效地使用毒药和抗凝血剂是一种终极武器。
 
-tagClass04SkillName14A=^g「^f夜刃^g」^b爆裂之刃^-
+tagClass04SkillName14A=^g「^f夜刃^g」^b阿玛拉斯塔的爆裂之刃^-
 tagClass04SkillDescription14A=暗杀大师阿玛拉斯塔，在夜刃中以她的敏捷而成为传奇，她自创了一种能够在攻击点爆发刀阵并刺穿附近敌人的致命幻影刀锋技艺。
 tagClass04SkillName14B=^g「^f夜刃^g」^b致命突袭^-
 tagClass04SkillDescription14B=阿玛拉斯塔专注于进攻，在发出一波刀阵后使用她的注魔武器继续对幸存的敌人发起快速且无情的攻击来结束他们的生命。^o致命突袭效果激活时会影响所有攻击。
 
 xtagClass04SkillName14A=^g「^f夜刃^g」^b致命策略^-
 xtagClass04SkillDescription14A=刺杀大师阿玛拉斯塔偏爱的一种冒险的技艺。如果使用得当，致命策略会造成毁灭性的伤害。风险在于有时它会变成软弱无力的一击。^o需要一把近战武器或者双手远程武器。当使用一把近战武器时，将会击中附近的额外敌人。
-xtagClass04SkillName14B=^g「^f夜刃^g」^b爆裂之刃^-
+xtagClass04SkillName14B=^g「^f夜刃^g」^b阿玛拉斯塔的爆裂之刃^-
 xtagClass04SkillDescription14B=熟练掌握致命策略之后，就能以攻击目标为原点爆射出大量致人死地的幻影刀锋，对附近的敌人造成伤害。
 
 
@@ -527,7 +527,7 @@ tagClass05SkillName05B=^g「^f奥术^g」^b转化^-
 tagClass05SkillDescription05B=球形护盾将吸收有害的虚弱效果，转化成为能量为你所用。
 
 tagClass05SkillName06A=^g「^f奥术^g」^b阿尔布雷特的虚化射线^-
-tagClass05SkillDescription06A=一种强大奥术，能将原始的奥术能量引导为高能的毁灭射线并穿透所有敌人。阿尔布雷特大师在恐怖黎明来临之前经过多年的时间使它臻至完美。^o需要装备副手法器。^o施法速度为100%时，虚化射线每0.3s造成伤害并消耗能量。
+tagClass05SkillDescription06A=一种强大奥术，能将原始的奥术能量引导为高能的毁灭射线并穿透所有敌人。阿尔布雷特大师在恐怖黎明来临之前经过多年的时间使它臻至完美。^o需要装备法器副手。施法速度为100%时，虚化射线每0.3s造成伤害并消耗能量。
 tagClass05SkillName06B=^g「^f奥术^g」^b崩解^-
 tagClass05SkillDescription06B=倾泻你所有的能量灌注在虚化射线之中，毁灭性的力量将粉碎所有它接触到的物体。^o每次造成伤害的时间间隔之后魔法消耗都会提高。
 tagClass05SkillName06C=堕落之力
@@ -537,7 +537,7 @@ tagClass05SkillName07A=^g「^f奥术^g」^b净化^-
 tagClass05SkillDescription07A=在目标区域集中大量负面能量，清除敌人所有的有益的光环和法术，同时清除友军的有害状态，包括持续性伤害效果。
 
 tagClass05SkillName08A=^g「^f奥术^g」^b毁灭^-
-tagClass05SkillDescription08A=这种法术被称为奥术师的终极毁灭力量，它将在现实世界中撕裂出一道能倾泻出原始奥术能量余烬的裂隙。这项危险而又极为耗能的法术不该被轻易使用。^o需要副手法器。在法术的持续时间内，余波会持续降落。同一时间只能施放一次毁灭。
+tagClass05SkillDescription08A=这种法术被称为奥术师的终极毁灭力量，它将在现实世界中撕裂出一道能倾泻出原始奥术能量余烬的裂隙。这项危险而又极为耗能的法术不该被轻易使用。^o需要法器副手。在法术的持续时间内，余波会持续降落。同一时间只能施放一次毁灭。
 
 tagClass05SkillName09A=^g「^f奥术^g」^b心灵专注^-
 tagClass05SkillDescription09A=以专注的身心作为奥术能量的洪炉，有志于成为奥术师的人都会首先学习这种冥想术。
@@ -1424,8 +1424,8 @@ tagItemSkillD027Desc=你撕裂现实并揭示了天启，释放来自众神的�
 tagItemSkillD028Name=奥术专注
 tagItemSkillD028Desc=进入一种入神的状态。当作为默认武器攻击时，奥术专注增强你每一击的奥术伤害。^o提高充能层数会提高加成效果。
 
-tagItemSkillD029Name=上神之怒
-tagItemSkillD029Desc=上神的愤怒是可怕的。极少有能够抵挡它的力量。
+tagItemSkillD029Name=先祖之怒
+tagItemSkillD029Desc=先祖的愤怒是可怕的。极少有能够抵挡它的力量。
 
 tagItemSkillD030Name=奥祖因的化身
 tagItemSkillD030Desc=在你所踏足的任何地方留下狂野之火。
@@ -2170,7 +2170,7 @@ tagCompSkillA011Name=断头
 tagCompSkillA011Desc=尝试用能导致严重流血的致命一击斩杀敌人。
 
 tagCompSkillA012Name=斩杀
-tagCompSkillA012Desc=尝试用能导致严重流血的致命一击斩杀敌人。^o当使用近战武器发动时，会击中附近多个目标。
+tagCompSkillA012Desc=尝试用能导致严重流血的致命打击斩杀敌人。^o当使用近战武器发动时，会击中附近多个目标。
 
 tagCompSkillA013Name=燃火利刃
 tagCompSkillA013Desc=以燃烧的烈焰强化你的攻击。^o这项技能必须保持开启以持续生效。
@@ -2421,8 +2421,8 @@ tagRelicSkillD019Desc=掌握战争之神的血液之力，向附近敌人释放�
 tagRelicSkillD020Name=曼海尔的壁垒
 tagRelicSkillD020Desc=掌握曼海尔的守护之灵，为你和你的队友抵挡一定伤害。
 
-tagRelicSkillD021Name=元素混乱
-tagRelicSkillD021Desc=你冒着施法中断的风险，谨慎地平衡着元素力量。释放一股让你的敌人后悔靠近你的力量。^o需要装备法器副手。
+tagRelicSkillD021Name=元素失衡
+tagRelicSkillD021Desc=你冒着施法中断的风险，谨慎地平衡着元素力量。释放一股让你的敌人后悔靠近你的力量。
 
 
 
@@ -2468,7 +2468,7 @@ tagConsumableSkill_A18=蜂王浆精华
 tagConsumableSkill_A18Desc=固骨生肌。
 tagConsumableSkill_A19=蜂王浆药剂
 tagConsumableSkill_A19Desc=让你充满舒缓温暖的感觉。
-tagConsumableSkill_A20=蜂王浆药膏
+tagConsumableSkill_A20=蜂王浆油膏
 tagConsumableSkill_A20Desc=让你充满舒缓温暖的感觉。
 tagConsumableSkill_A21=天神之梦魇
 tagConsumableSkill_A21Desc=圣光充盈你的身体。
@@ -2517,40 +2517,40 @@ tagQuestSkill_A03Desc=你被放逐者标记了。
 
 MasteriesAvailable=从{%d0}个额外专精栏中选择
 NoMasteriesAvailable=无可用的额外专精栏
-SkillPointsAvailable=可用技能点数: {%d0}
-SkillPointsAvailableSingular=可用技能点数: {%d0}
-NoSkillPointsAvailable=可用技能点数: 0
-DevotionPointsAvailable=可用点数: {%d0}
-DevotionPointsAvailableSingular=可用点数: {%d0}
-NoDevotionPointsAvailable=可用点数:0
-DevotionPointsTotal=已解锁点数: {%d0} / {%d1}
+SkillPointsAvailable=可用技能点数：{%d0}
+SkillPointsAvailableSingular=可用技能点数：{%d0}
+NoSkillPointsAvailable=可用技能点数：0
+DevotionPointsAvailable=可用虔诚点数：{%d0}
+DevotionPointsAvailableSingular=可用虔诚点数：{%d0}
+NoDevotionPointsAvailable=可用虔诚点数：0
+DevotionPointsTotal=已解锁点数：{%d0} / {%d1}
 tagConfirmSkillChanges=确认变更？
 
 #SkillDevotion
 tagDevotionInfo=在最黑暗的时期，人类向天上的众星求助。献身于天体符记和古老的神灵。获得他们的远古力量。
 
 tagDevotionAffinity01=运势
-tagDevotionAffinity01Info=你所拥有的运势亲和点数，数量。{^n}{^n} 运势生物通过无数战功，以及 {^n} 受下位者膜拜，已经成长为 {^n} 神一般的存在。
+tagDevotionAffinity01Info=你所拥有的运势亲和点数，数量。运势生物通过无数战功，以及受下位者膜拜，已经成长为神一般的存在。
 tagDevotionAffinity02=混乱
-tagDevotionAffinity02Info=你所拥有的混乱亲和点数，数量。{^n}{^n} 混乱生物渴望熵能并认为，毁灭 {^n} 高于一切。
+tagDevotionAffinity02Info=你所拥有的混乱亲和点数，数量。混乱生物渴望熵能，并认为毁灭高于一切。
 tagDevotionAffinity03=敬畏
-tagDevotionAffinity03Info=你所拥有的敬畏亲和点数，数量。{^n}{^n} 敬畏生物代表着魔法的，野性力量 {^n} 以及超越来世的超自然领域。
+tagDevotionAffinity03Info=你所拥有的敬畏亲和点数，数量。敬畏生物代表着魔法的野性力量，以及超越来世的超自然领域。
 tagDevotionAffinity04=秩序
-tagDevotionAffinity04Info=你所拥有的秩序亲和点数，数量。{^n}{^n} 秩序生物珍爱和谐以及，万物 {^n} 平衡。
+tagDevotionAffinity04Info=你所拥有的秩序亲和点数，数量。秩序生物珍爱和谐，以及万物平衡。
 tagDevotionAffinity05=原始
-tagDevotionAffinity05Info=你所拥有的原始亲和点数，数量。{^n}{^n} 原始生物象征着创造，生命，死亡 {^n} 以及现实本身。
+tagDevotionAffinity05Info=你所拥有的原始亲和点数，数量。原始生物象征着创造，生命，死亡以及现实本身。
 
 tagDevotion_RequiresSword=^o需要一把剑。^c(单/双手皆可)
 tagDevotion_RequiresAxe=^o需要一把斧子。^c(单/双手皆可)
 tagDevotion_RequiresMace=^o需要一把锤子。^c(单/双手皆可)
 tagDevotion_RequiresCaster=^o需要一把权杖或匕首。
-tagDevotion_RequiresFocus=^o需要一件副手法器。
+tagDevotion_RequiresFocus=^o需要一件法器副手。
 tagDevotion_Requires1hRange=^o需要一把单手远程武器。
 tagDevotion_Requires2hRange=^o需要一把双手远程武器。
 tagDevotion_RequiresRange=^o需要一把远程武器。^c(单/双手皆可)
 tagDevotion_Requires2h=^o需要一把双手近战武器或双手远程武器。
 tagDevotion_RequiresShield=^o需要一面盾牌。
-tagDevotion_RequiresMagic=^o需要一把权杖，匕首或者法器副手。
+tagDevotion_RequiresMagic=^o需要一把权杖，匕首或法器副手。
 
 tagDevotion_A01=蝙蝠 ^g[初级]（吸血系，穿刺+活力，5换5）
 tagDevotion_A01Desc=吸血蝙蝠很容易就能找到在夜空飞行的道路，猎杀那些闪烁的失落之星来汲取他们的光能。
@@ -2639,7 +2639,7 @@ tagDevotion_B04=女猎手 ^g[中级]（流血系『减抗』，%OA，7换2）
 tagDevotion_B04Desc=女猎手在夜空中巡视，追捕着她的猎物。据说除非她杀死不朽的九头蛇，否则她的无尽捕猎不会停止。
 tagDevotion_B05=残暴之熊 ^g[中级]（物理系，抗性，6换2）
 tagDevotion_B05Desc=残暴之熊是傲慢与强壮力量的标志。在它的光芒下诞生的人被认为是古时的帝王降临凡尘。
-tagDevotion_B06=刺杀者 ^g[中级]（穿刺系，7换2）
+tagDevotion_B06=刺客 ^g[中级]（穿刺系，7换2）
 tagDevotion_B06Desc=刺杀者即死亡行刑者，很少会出现在夜空中。他的到来经常伴随着浓厚的阴云，短暂的出现后再次没入其中，一闪而逝。
 tagDevotion_B07=魔法长者 ^g[中级]（火系，7换3）
 tagDevotion_B07Desc=魔法长者是所有魔法师的保护者。那些在他的注视下诞生的人据说都被赐予了祝福或者被施加了诅咒，这取决于他的视角，伴随着对奥术力量无与伦比的控制力。
@@ -2666,7 +2666,7 @@ tagDevotion_B17Desc=螃蟹标志着一年中最兴盛的渔汛期到来，但同
 tagDevotion_B18=狮蝎 ^g[中级]（毒系『点数减全抗』，6换2）
 tagDevotion_B18Desc=狮蝎是一种在夜空游荡并寻找下一个猎物的恶毒捕食者。它的牙齿和尾巴充满了毒液。
 tagDevotion_B19=庄严守望者 ^g[中级]（防御系，%DA，5换5）
-tagDevotion_B19Desc=守望者 ~ 西蒙守卫者他的领域直到他死亡的那天，保护帝国不受超自然现象的威胁。西蒙的永恒警戒在上天延续，就像他在活着的时候一样守望着凯恩。
+tagDevotion_B19Desc=守望者 ~ 西蒙守卫着他的领域直到他死亡的那天，保护帝国不受超自然现象的威胁。西蒙的永恒警戒在上天延续，就像他在活着的时候一样守望着凯恩。
 tagDevotion_B20=战争先驱 ^g[中级]（反击系，反击+护甲，6换5）
 tagDevotion_B20Desc=战争先驱是恐惧与残暴的标志。先驱越过布满天星的夜空，预示着一个争执与冲突的新时代即将来临。
 tagDevotion_B21=海怪 ^g[中级]（双手武器专属，暴击，5换5）
@@ -2716,14 +2716,14 @@ tagDevotion_C11=盲眼圣者 ^g[高级]（元素系，7）
 tagDevotion_C11Desc=很多人旅行了成千上万里来寻求伟大盲眼圣者的智慧，但大部分都失望了，他们的灵魂不值得引起她那不朽智慧的注意。
 tagDevotion_C12=海怪 ~ 利维坦 ^g[高级]（冰系，生命，7）
 tagDevotion_C12Desc=星空中巨大的蛇怪，天星的吞噬者以及冰冻寒意之夜的制造者。
-tagDevotion_C13=无名勇士 ^g[高级]（穿刺系，流血系，爆击+攻速，类召唤，7）
+tagDevotion_C13=无名士兵 ^g[高级]（穿刺系，流血系，爆击+攻速，类召唤，7）
 tagDevotion_C13Desc=很多传说都有关于在战斗中阵亡的无名男女们，他们的勇猛和事迹从没被确认过。为了向他们致敬，天星们自动重新排列成了无名勇士的形状。
 
 tagDevotionEffectA01=双生之牙
 tagDevotionEffectA01Desc=吸血蝙蝠之牙攻击你的敌人并汲取他们的活力。
 tagDevotionEffectA02=蝎刺
 tagDevotionEffectA02Desc=涂有致命毒素的尖刺从你周围爆发而出。
-tagDevotionEffectA05=塔戈的锻锤
+tagDevotionEffectA05=塔戈之锤
 tagDevotionEffectA05Desc=塔戈的神力之锤环绕着你，击倒附近的敌人。^o持盾格挡才能触发。
 tagDevotionEffectA06=牧羊人的呼唤
 tagDevotionEffectA06Desc=呼唤你的仆从加入战斗。
@@ -2757,7 +2757,7 @@ tagDevotionEffectB03Desc=你用温迪戈的印记标记了敌人，吸干他们�
 tagDevotionEffectB04=撕裂
 tagDevotionEffectB04Desc=撕碎你的敌人，精妙的割开敌人的动脉并造成内出血。^odebuff技能。
 tagDevotionEffectB05=槌撞
-tagDevotionEffectB05Desc=以暴熊之力撞击附近的敌人。^o需要一把近战武器。
+tagDevotionEffectB05Desc=以暴熊之力撞击附近的敌人，吞噬他们暴露的内脏。^o需要一把近战武器。
 tagDevotionEffectB06=刀锋之怒
 tagDevotionEffectB06Desc=释放一阵爆发的幻影刀阵，轻易地穿透你的敌人。^o以触发者为中心，360°发射。
 tagDevotionEffectB07=裂地
@@ -2770,12 +2770,12 @@ tagDevotionEffectB09Desc=在地上标记一个朝敌人喷射的奥术魔印。^
 tagDevotionEffectB09_Pet01=奥术标记
 tagDevotionEffectB09_Pet01Desc=用一枚奥术炸弹标记目标。
 tagDevotionEffectB10=亡者复生
-tagDevotionEffectB10Desc=复生一名亡者来为你作战。这项仪式所需要的腐坏能量是很不稳定的，这些亡灵仆从只能在有限的一段时间内存在。^o亡者会受到玩家伤害加成影响。
+tagDevotionEffectB10Desc=复生一名亡者来为你作战。这项仪式所需要的腐坏能量是很不稳定的，这些亡灵仆从只能在有限的一段时间内存在。^o亡者会受到玩家伤害加成的影响。
 tagDevotionEffectB10_Pet01=近战攻击
 tagDevotionEffectB11=畏惧之焰
 tagDevotionEffectB11Desc=畏惧烈焰从你的撞击中爆发并在敌人之间弹跳。^odebuff技能，具备传播特性。
 tagDevotionEffectB12=拜斯迈的命令
-tagDevotionEffectB12Desc=召唤一只可怕的猎犬来猛咬并撕裂敌人。猎犬在现实世界的存在是很不稳定的，它只会在有限的时间内存在。^o猎犬会受到战宠加成影响。
+tagDevotionEffectB12Desc=召唤一只可怕的猎犬来猛咬并撕裂敌人。猎犬在现实世界的存在是很不稳定的，它只会在有限的时间内存在。^o猎犬会受到战宠加成的影响。
 tagDevotionEffectB12_Pet01=撕咬
 tagDevotionEffectB12_Pet02=瘟疫吐息
 tagDevotionEffectB13=狂野风暴
@@ -2841,7 +2841,7 @@ tagReallocateError01=在完全撤销该技能加点之前你必须先撤销其�
 tagReallocateError02=铁币不足。
 tagReallocateError03=不能从专精中撤销点数。
 tagDecreaseMasteryError=不能从专精中撤销点数。
-tagReclaimPoint=点击以撤销加点 (费用{^y}{%t0}{^-}铁币)
+tagReclaimPoint=点击以撤销加点 (费用 {^y}{%t0}{^-} 铁币)
 tagReclaimDevotionPoint=点击来撤回虔诚点数 (消耗 {^s}{%t0}{^-} 铁币，{^g}{%t1}{^-} 虚化水晶)
 tagRemovePoint=左键点击来移除虔诚点数
 tagReclaimBase=先移除其延伸技能才能移除该技能
@@ -2849,13 +2849,13 @@ tagReclaimDevotion=先移除已绑定的信仰效果
 tagRemoveBase=无法移除虔诚点数
 tagReclaimNoPoints=没有技能点数可以撤销
 tagRemoveNoPoints=没有点数可以移除
-tagReclaimTotalGold=铁币总数:
-tagReclaimCost=铁币花费:
-tagReclaimNoGold=铁币不足 (花费{^s}{%t0}{^r})
-tagReclaimNoAether=虚化水晶不足 (花费{^g}{%t0}{^r})
+tagReclaimTotalGold=铁币总数：
+tagReclaimCost=铁币花费：
+tagReclaimNoGold=铁币不足 (花费 {^s}{%t0}{^r})
+tagReclaimNoAether=虚化水晶不足 (花费 {^g}{%t0}{^r})
 tagReallocateTitle=技能重置
 tagReallocationDescription=点击技能图标会移除一个技能点，每移除一个加点费用都会随之增加。
-tagReclaimTotalAether=虚化水晶总数:
+tagReclaimTotalAether=虚化水晶总数：
 
 tagTemplateName=Rename Me
 tagTemplateDescription=Describe Me
