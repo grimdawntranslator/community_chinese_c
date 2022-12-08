@@ -54,7 +54,7 @@ tagGDX1Class07SkillDescription02A=开启刻有符文的艾尔格洛斯风暴之�
 tagGDX1Class07SkillName02B=^g「^f审判^g」^b闪电绳链^-
 tagGDX1Class07SkillDescription02B=通过闪电绳链将目标连接到你身上，迅速电击目标并使所有不幸穿越它的敌人都受到电击。绳链的能量有限，如果你和目标之间的距离变得过远，它就会扯断。^o最多可与3名敌人保持连接。
 tagGDX1Class07SkillName02C=阿拉加斯特的奥术织网
-tagGDX1Class07SkillDescription02C=虽然光明会负责监察吉尔达姆秘学社的活动，但是认可合作在两者之间并非闻所未闻的。在精确地调整风暴之盒后，电磁场中充满了虚化的奥术能量。^o绳链依然附带电击伤害。
+tagGDX1Class07SkillDescription02C=虽然光明会负责监察吉尔达姆秘学社的活动，但是认可合作在两者之间并非闻所未闻的。在精确地调整风暴之盒后，电磁场中充满了虚化的奥术能量。^o仅影响技能本体，不影响进阶闪电绳链。
 
 tagGDX1Class07SkillName03A=^g「^f审判^g」^b重生之语^-
 tagGDX1Class07SkillDescription03A=带有摧毁敌人和振奋盟友力量的短语迅速成为了审判官的作战利器。重生之语是审判官的无价之宝，因为在战时它能鼓舞审判官和他的盟友团结起来对抗神秘的敌人。^o审判万用buff。
@@ -136,7 +136,7 @@ tagGDX1Class08SkillDescription01B=体验过生命精华后的饥渴是无法轻�
 tagGDX1Class08SkillName01C=^g「^f死灵^g」^b分解^-
 tagGDX1Class08SkillDescription01C=在生命从他们的眼中消失之前，你的敌人已经开始分崩离析。
 tagGDX1Class08SkillName01D=黄泉颤抖
-tagGDX1Class08SkillDescription01D=死灵法师深谙死亡低语可将坟墓的寒意施加于受害者，减缓他们的行动，但会削弱吸取生命精华的能力。
+tagGDX1Class08SkillDescription01D=死灵法师深谙死亡低语可将坟墓的寒意施加于受害者，减缓他们的行动。
 xxtagGDX1Class08SkillName01D=^g「^f死灵^g」^b无尽渴望^-
 xxtagGDX1Class08SkillDescription01D=生命精华的转移通常是一种只为极端情况而保留的做法，但有些信徒难以抵御鲜活生命力的诱惑，并屈服于自己的力量，以牺牲周围的人为代价来满足自己。
 
@@ -309,7 +309,7 @@ tagGDX1ItemSkillD111Name=恶魔的凝视
 tagGDX1ItemSkillD111Desc=恶魔的凝视落在敌人的身上，燃烧着他们的灵魂。
 
 tagGDX1ItemSkillD112Name=火焰碎片
-tagGDX1ItemSkillD112Desc=你点燃了敌人所站的土地。
+tagGDX1ItemSkillD112Desc=点燃敌人所站的土地。
 
 tagGDX1ItemSkillD113Name=真理之光
 tagGDX1ItemSkillD113Desc=神圣的真理之光笼罩你的敌人。
@@ -351,7 +351,7 @@ tagGDX1ItemSkillD125Name=愤怒之火
 tagGDX1ItemSkillD125Desc=从大地爆发出一阵污染火焰。
 
 tagGDX1ItemSkillD126Name=加达尔之焰
-tagGDX1ItemSkillD126Desc=沉浸于加达尔的邪恶火焰之中，不会伤害到你和盟友，但是会灼烧任何靠近的敌人。
+tagGDX1ItemSkillD126Desc=沉浸于加达尔的邪恶火焰之中，不会伤害到你和盟友，但是会灼烧任何靠近的敌人。^o这项技能必须保持开启以持续生效。
 
 tagGDX1ItemSkillD127Name=行刑者的刀锋
 tagGDX1ItemSkillD127Desc=释放出一阵致命的旋转刀刃杀死你的敌人。
@@ -402,7 +402,7 @@ tagGDX1ItemSkillD142Name=虚空诅咒
 tagGDX1ItemSkillD142Desc=目标已经被虚空标记，狂语将从内部开始慢慢地摧毁它。
 
 tagGDX1ItemSkillD143Name=风暴领域
-tagGDX1ItemSkillD143Desc=在你号令下形成的闪电力场，将电击任何经过的敌人。
+tagGDX1ItemSkillD143Desc=在你号令下形成的闪电立场，将电击任何经过的敌人。
 
 tagGDX1ItemSkillD144Name=符文守卫
 tagGDX1ItemSkillD144Desc=符文被刻在护甲上，保护你免受奥术伤害。
@@ -429,7 +429,7 @@ tagGDX1ItemSkillD151Name=剧毒术士光环
 tagGDX1ItemSkillD151Desc=用恐怖毒液强化你和附近盟友的武器。^o这项技能必须保持开启以持续生效。
 
 tagGDX1ItemSkillD152Name=死灵领主光环
-tagGDX1ItemSkillD152Desc=用不死力量强化你和附近盟友的武器。^o这项技能必须保持开启以持续生效。
+tagGDX1ItemSkillD152Desc=用不死之力强化你和附近盟友的武器。^o这项技能必须保持开启以持续生效。
 
 tagGDX1ItemSkillD153Name=伊格纳法降临
 tagGDX1ItemSkillD153Desc=用伊格纳法的火焰强化你的护甲，灼烧附近的敌人。^o这项技能必须保持开启以持续生效。
@@ -623,7 +623,7 @@ tagGDX1RelicSkillD108Desc=夜刃大师尼达拉最喜爱的技能，释放飞刃
 tagGDX1RelicSkillD109Name=时间循环
 tagGDX1RelicSkillD109Desc=你的行动将穿越时空。^o需要装备法器副手。
 
-tagGDX1RelicSkillD110Name=血脊
+tagGDX1RelicSkillD110Name=鲜血脊刺
 tagGDX1RelicSkillD110Desc=以扇形向敌人施放数根涂满鲜血的脊骨。
 
 tagGDX1RelicSkillD111Name=收割弧
@@ -715,7 +715,7 @@ tagGDX1Devotion_B105=吟游诗人的竖琴 ^g[中级]（穿刺元素，能量恢
 tagGDX1Devotion_B105Desc=佳丽亚吟游诗人的音乐是如此迷人，以至于众神将她升入天空，这样她就能款待他们直至永恒。
 
 tagGDX1Devotion_C101=风暴牧羊人 ~ 尤尔托斯 ^g[高级]（电冰霜『点数元素抗降低』，6）
-tagGDX1Devotion_C101Desc=在安克维亚传说中尤尔托斯的地位较低于其他天神兄弟，但他仍然是一个强大的象征，他撒下的雨水让作物丰收，他降下闪电能造成可怕的毁灭。不过具有讽刺意味的是，尤尔托斯却是安克维亚神中唯一一个受到的信奉超越了帝国兴衰。
+tagGDX1Devotion_C101Desc=在安克维亚传说中尤尔托斯的地位较低于其他天神兄弟，但他仍然是一个强大的象征，他撒下的雨水让作物丰收，他降下闪电能造成可怕的毁灭。不过具有讽刺意味的是，尤尔托斯却是安克维亚唯一一个所受信奉超越了帝国兴衰的神。
 tagGDX1Devotion_C102=春之少女 ~ 伊师塔克 ^g[高级]（防御『%伤害吸收』，抗性，6）
 tagGDX1Devotion_C102Desc=在安克维亚时期很多人经常找伊师塔克疗伤。万物皆是春之少女的孩子，所有人都会在她温柔的拥抱中找到安慰。
 tagGDX1Devotion_C103=石夫人 ~ 维尔 ^g[高级]（物理，附加反击伤害，抗性，6）
@@ -726,7 +726,7 @@ tagGDX1Devotion_C105=暗影守望者 ~ 莱托什 ^g[高级]（活力系『减抗
 tagGDX1Devotion_C105Desc=隐藏在阴影中，安克维亚伟大的守护者注视着现实世界的边界，确保没有恶魔逃脱精神境界肆虐生者。当安克维亚的诅咒蔓延开来，人民乞求莱托什的恩赐解脱，但他从未出现。
 
 tagGDX1DevotionEffectB101=谣言
-tagGDX1DevotionEffectB101Desc=穆谟的话语中包含的可怕真相在你的敌人中间流传，就像经久不衰的谣言，粉碎了他们的心智。^odebuff技能，具备传播扩撒性
+tagGDX1DevotionEffectB101Desc=穆谟的话语中包含的可怕真相在你的敌人中间流传，就像经久不衰的谣言，粉碎了他们的心智。^odebuff技能，具备传播扩散性
 tagGDX1DevotionEffectB102=凤凰烈焰
 tagGDX1DevotionEffectB102Desc=凤凰燃烧的羽毛在你周围盘旋，把你包围在保护性屏障里并焚烧所有靠得太近的敌人。
 tagGDX1DevotionEffectB103=激励

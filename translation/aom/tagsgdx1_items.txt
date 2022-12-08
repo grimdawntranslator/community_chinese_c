@@ -21,7 +21,7 @@ tagGDX1WeaponSwordD107=贝尔戈斯安的切刀
 
 tagGDX1WeaponSwordF101=马尔茅斯切刀
 tagGDX1WeaponSwordF102=马尔茅斯之刃
-tagGDX1WeaponSwordF103=温迪戈之爪
+tagGDX1WeaponSwordF103=温迪戈之颚
 tagGDX1WeaponSwordF104=马尔茅斯的救世主
 
 
@@ -409,14 +409,14 @@ tagGDX1HeadF118=温迪戈暴躁头盔
 #ArmorShoulders 护肩
 
 tagGDX1ShoulderB101=^l升灵肩铠
-tagGDX1ShoulderB102=^l升灵肩胄
-tagGDX1ShoulderB103=^l克拉瓦尔肩胄
+tagGDX1ShoulderB102=^l升灵护肩
+tagGDX1ShoulderB103=^l克拉瓦尔护肩
 tagGDX1ShoulderB103_Desc="巫登沼泽巨妖的皮肤太坚硬，可能很难用来制作，但这也是它被工匠们所珍视的好理由。"
-tagGDX1ShoulderB104=^l克拉瓦尔护肩
+tagGDX1ShoulderB104=^l克拉瓦尔披肩
 
 tagGDX1ShoulderC101=幽灵呼唤者斗篷
 tagGDX1ShoulderC102=幽灵骑士的肩铠
-tagGDX1ShoulderC103=风暴焚烧的肩胄
+tagGDX1ShoulderC103=风暴焚烧的护肩
 tagGDX1ShoulderC103_Desc="即使上百个风暴也不足以打破这个铠甲。"
 tagGDX1ShoulderC104=赏金猎人的护肩
 tagGDX1ShoulderC105=腐蚀者斗篷
@@ -432,7 +432,7 @@ tagGDX1ShoulderD104=烈焰降生斗篷
 tagGDX1ShoulderD109=毒液之舌斗篷
 tagGDX1ShoulderD110=余烬之核护肩
 tagGDX1ShoulderD110_Desc="铠甲让使用者充满了永不退却的愤怒火焰。"
-tagGDX1ShoulderD111=克里格的肩胄☆
+tagGDX1ShoulderD111=克里格的护肩☆
 tagGDX1ShoulderD112=复仇者的肩铠
 tagGDX1ShoulderD113=迷失灵魂斗篷
 tagGDX1ShoulderD114=奥克塔维尔斯的肩铠
@@ -452,9 +452,9 @@ tagGDX1ShoulderD126=血骑士卷轴
 tagGDX1ShoulderF101=女巫团愤怒斗篷
 tagGDX1ShoulderF102=女巫团生命束缚者斗篷
 tagGDX1ShoulderF103=女巫团奥术斗篷
-tagGDX1ShoulderF104=女巫团战斗护肩
-tagGDX1ShoulderF105=女巫团守卫护肩
-tagGDX1ShoulderF106=女巫团奥术护肩
+tagGDX1ShoulderF104=女巫团战斗肩甲
+tagGDX1ShoulderF105=女巫团守卫肩甲
+tagGDX1ShoulderF106=女巫团奥术肩甲
 tagGDX1ShoulderF107=马尔茅斯寒冷斗篷
 tagGDX1ShoulderF108=马尔茅斯虚灵火焰斗篷
 tagGDX1ShoulderF109=马尔茅斯污染斗篷
@@ -462,8 +462,8 @@ tagGDX1ShoulderF110=马尔茅斯先锋肩铠
 tagGDX1ShoulderF111=马尔茅斯虚空肩铠
 tagGDX1ShoulderF112=马尔茅斯防御者肩铠
 tagGDX1ShoulderF113=温迪戈刀刃肩铠
-tagGDX1ShoulderF114=温迪戈邪恶护肩
-tagGDX1ShoulderF115=温迪戈织法者护肩
+tagGDX1ShoulderF114=温迪戈邪恶肩甲
+tagGDX1ShoulderF115=温迪戈织法者肩甲
 tagGDX1ShoulderF116=温迪戈暴躁肩铠
 tagGDX1ShoulderF117=温迪戈邪恶肩铠
 tagGDX1ShoulderF118=温迪戈守护者肩铠
@@ -539,7 +539,7 @@ tagGDX1TorsoF118=温迪戈守护者铁甲
 tagGDX1HandsC101=哈鲁德的极寒之握
 tagGDX1HandsC101_Desc="哈鲁德之握据说带着死亡的寒冷。"
 tagGDX1HandsC102=命令之触
-tagGDX1HandsC103=符文焚烧护手
+tagGDX1HandsC103=符文焚烧手铠
 tagGDX1HandsC104=净化之触
 tagGDX1HandsC104_Desc="只要轻微的触碰，就会令恶魔恐惧而逃。"
 tagGDX1HandsC111=鲜血仪式护手
@@ -767,7 +767,7 @@ tagGDX1NecklaceD114_Desc="水晶里散发着不灭的火焰。"
 tagGDX1NecklaceD115=迷失灵魂碎片
 tagGDX1NecklaceD116=灾变催化剂
 tagGDX1NecklaceD117=岩石守卫护符
-tagGDX1NecklaceD118=黑暗烈焰之源
+tagGDX1NecklaceD118=黑焰之源
 tagGDX1NecklaceD119=法术天灾偏转器
 tagGDX1NecklaceD120=法师杀手保卫者
 tagGDX1NecklaceD121=符文束缚者宝石
@@ -996,7 +996,7 @@ tagGDX1Blueprint_ArmorC115=设计图：^b神话的圣契的不洁面容
 tagGDX1Blueprint_ArmorC116=设计图：^b神话的黎明守卫头盔
 tagGDX1Blueprint_ArmorC117=设计图：^b神话的持火者的夹克
 tagGDX1Blueprint_ArmorC118=设计图：^b神话的卡里多的战衣
-tagGDX1Blueprint_ArmorC119=设计图：^b神话的密耳弥冬的面甲
+tagGDX1Blueprint_ArmorC119=设计图：^b神话的密尔弥冬的面甲
 tagGDX1Blueprint_ArmorC120=设计图：^b神话的莫格卓根的风帽
 tagGDX1Blueprint_ArmorC121=设计图：^b神话的完美主义者的风帽
 
@@ -1179,11 +1179,10 @@ tagGDX1RelicD114=^im^h-^c死亡追猎者
 tagGDX1RelicD114Desc="恶灵寻求着解脱。"
 
 
-#Crafting 锻造
-
-tagGDX1CraftRandomLegendaryDesc2=铁匠把原始奥术能量注入这些物体来创造传奇装备，物品等级上限为94级。58级以下的人物可能会锻造出一件史诗级装备。
-tagGDX1CraftRandomLegendaryAccessoryDesc2=铁匠把原始奥术能量注入这些物体来创造传奇装备，物品等级上限为94级。58级以下的人物会锻造出一件史诗级装备。
-tagGDX1CraftRandomLegendaryItemDesc2=铁匠能打造一件符合你的等级的传奇装备，物品等级上限为94级。
+#Crafting 制作
+tagGDX1CraftRandomLegendaryDesc2=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级。58级以下的人物有机会打造出一件史诗级的物品。
+tagGDX1CraftRandomLegendaryAccessoryDesc2=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级。58级以下的人物将会打造出一件史诗级的物品。
+tagGDX1CraftRandomLegendaryItemDesc2=铁匠会制作一件适应你等级并具有传奇品质的附魔物品，物品等级上限为94级。
 
 tagGDX1CraftMaterial_AetherialVanguard=虚灵信件
 tagGDX1CraftMaterial_AetherialVanguard_Desc="奥术文本注入了虚灵能量。可能是用于传输信息，凡人之眼过于敏感而无法阅读。"
@@ -1520,10 +1519,10 @@ tagGDX1CompA107Name=^g10^h-^e黑夜之印
 tagGDX1CompA107Desc="夜刃阿玛拉斯塔为了实现一个特殊目标而设计的印章。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA108Name=^g06^h-^e毁灭之印
-tagGDX1CompA108Desc="为了奥祖因的荣耀而创造的印章，燃烧将毁灭那些藐视天神之人。"^w^n(用于所有武器，盾牌和法器副手)
+tagGDX1CompA108Desc="为了奥祖因的荣耀而创造的印章，那些藐视天神之人将在燃烧中毁灭。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA109Name=^g05^h-^e暗影之印
-tagGDX1CompA109Desc="夜刃尼达拉的最爱，能将刺骨的酸性注入武器。"^w^n(用于所有武器，盾牌和法器副手)
+tagGDX1CompA109Desc="夜刃尼达拉的最爱，能将刺骨毒酸注入武器。"^w^n(用于所有武器，盾牌和法器副手)
 
 tagGDX1CompA110Name=^g01^h-^e共鸣之印
 tagGDX1CompA110Desc="按照光明会精确的标准制成，这枚印章可以强化武器的魔法属性，甚至不精通奥术的人也可使用。"^w^n(用于所有武器，盾牌和法器副手)
@@ -1540,11 +1539,11 @@ tagGDX1CompA113Desc="刻在宝石侧面的符文可以强化防护性能。"^w^n
 tagGDX1CompA114Name=^g12^h-^e血腥水晶
 tagGDX1CompA114Desc="曾经白如珍珠的水晶吸收了无数杀戮的鲜血。"^w^n(用于戒指，项链和勋章)
 
-tagGDX1CompA115Name=^cm1^h-^o魔法大地
-tagGDX1CompA115Desc="充满大地的生命精华能促进健康生长。"^w^n(用于所有护甲)
+tagGDX1CompA115Name=^cm1^h-^o魔法之土
+tagGDX1CompA115Desc="泥土中被注入了生命精华以促发生机。"^w^n(用于所有护甲)
 
 tagGDX1CompA116Name=^cm4^h-^o魔法焚烧铠甲片
-tagGDX1CompA116Desc="破碎的铠甲片吸收了致命奥数攻击的魔法能量。"^w^n(用于所有护甲)
+tagGDX1CompA116Desc="破碎的铠甲片吸收了致命奥术攻击的魔法能量。"^w^n(用于所有护甲)
 
 tagGDX1CompA117Name=^cm2^h-^o刀刃铠甲片
 tagGDX1CompA117Desc="铠甲上装满了成排的致命刀刃。是强盗和残酷暴君的最爱。"^w^n(用于所有护甲)
@@ -1656,7 +1655,7 @@ tagGDX1ItemSetD106Name=岩石守卫
 tagGDX1ItemSetD106Desc="岩石守卫的装备，曼海尔信仰的忠诚守护者。"
 
 tagGDX1ItemSetD107Name=军团之要塞
-tagGDX1ItemSetD107Desc="帕里奥纳·达尔的装备，黑色军团的持盾少女。"
+tagGDX1ItemSetD107Desc="黑色军团的持盾少女，帕里奥纳·达尔的装备。"
 
 tagGDX1ItemSetD108Name=戈尔巴的愤怒
 tagGDX1ItemSetD108Desc="戈尔巴的铠甲，罗斯纳尔的野蛮女儿，绰号白狼毒牙。"
@@ -1787,19 +1786,19 @@ tagGDX1SuffixA101=之
 
 tagGDX1SuffixB101_Wpn_A=^g受折磨灵魂之
 tagGDX1SuffixB102_Wpn_A=^g灵魂守护之
-tagGDX1SuffixB103_Wpn_A=^g焚烧符文之★
+tagGDX1SuffixB103_Wpn_A=^g焚烧符文之
 tagGDX1SuffixB104_Wpn_A=^g灵魂牢笼之
 tagGDX1SuffixB105_Wpn_A=^g天神愤怒之
 
 tagGDX1SuffixB101_Ar_A=^g受折磨灵魂之
 tagGDX1SuffixB102_Ar_A=^g受折磨灵魂之
 tagGDX1SuffixB103_Ar_A=^g灵魂守护之
-tagGDX1SuffixB104_Ar_A=^g焚烧符文之★
+tagGDX1SuffixB104_Ar_A=^g焚烧符文之
 tagGDX1SuffixB105_Ar_A=^g灵魂牢笼之
 tagGDX1SuffixB106_Ar_A=^g灵魂牢笼之
 
 tagGDX1SuffixB101_Sh_A=^g受折磨灵魂之
-tagGDX1SuffixB102_Sh_A=^g焚烧符文之★
+tagGDX1SuffixB102_Sh_A=^g焚烧符文之
 tagGDX1SuffixB103_Sh_A=^g灵魂牢笼之
 tagGDX1SuffixB104_Sh_A=^g天神愤怒之
 tagGDX1SuffixB105_Sh_A=^g虚灵屏障之

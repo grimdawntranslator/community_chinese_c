@@ -85,7 +85,7 @@ tagAutosort=自动整理
 
 tagPromptButtonYes=是
 tagPromptButtonNo=否
-tagPromptButtonOkay=好的
+tagPromptButtonOkay=确定
 tagPromptButtonClose=关闭
 
 tagGraveName=玩家坟墓 ~ {%t0}
@@ -101,12 +101,12 @@ tagRepAwarded={^g}{%s1}的声望 +{%d0}
 tagLoreBonus=学识奖励
 
 tagLevelUp=等级提升
-tagLevelReached=你已经到达了 {^y}{%d0} 级
+tagLevelReached=你已经到达了 {^y}{%d0}{^-} 级
 
 #Devotion
 
-tagDevotionPointAwarded=奖励 {%d0} 点虔诚点数
-tagDevotionPointsAwarded=奖励 {%d0} 点虔诚点数
+tagDevotionPointAwarded=奖励 {%d0} 虔诚点数
+tagDevotionPointsAwarded=奖励 {%d0} 虔诚点数
 tagDevotionShrine=神龛已净化
 tagDevotionShrineGuardian=神龛守护者
 tagDevotionUpdate=虔诚等级
@@ -177,7 +177,7 @@ tagQuestFailed=任务失败：{^n}“{%t0}”
 tagActionGiveMoney={%d0} 铁币
 tagActionGiveTribute={%d0} 贡品
 tagActionGiveTributes={%d0} 贡品
-tagActionGiveExperience={%d0} 点经验值
+tagActionGiveExperience={%d0} 经验
 tagActionGiveFaction={%d0} {%t1}势力
 tagActionGiveLevel={%d0} 等级
 tagActionGiveLevels={%d0} 等级
@@ -185,8 +185,8 @@ tagActionGiveSkillPoint={%d0} 技能点
 tagActionGiveSkillPoints={%d0} 技能点
 tagActionGiveAttributePoint={%d0} 属性点
 tagActionGiveAttributePoints={%d0} 属性点
-tagActionGiveDevotionPoint={%d0} 虔诚点数
-tagActionGiveDevotionPoints={%d0} 虔诚点数
+tagActionGiveDevotionPoint={%d0} 虔诚点
+tagActionGiveDevotionPoints={%d0} 虔诚点
 tagConditionHasKilled={%t0} ({%d1} / {%d2})
 tagConditionHasItem={%t0} ({%d1} / {%d2})
 tagQuestRewardWindowTitle=完成任务
@@ -194,8 +194,8 @@ tagQuestRewardWindowInterim=任务进展
 tagQuestRewardTitle=奖励：
 tagQuestRewardMoney={%d0} 铁币
 tagQuestRewardXP=经验值：{%d0}
-tagQuestRewardReputationPositive={%s1}声望增加 {%d0} 
-tagQuestRewardReputationNegative={%s1}声望减少 {%d0} 
+tagQuestRewardReputationPositive={%s1}声望增加 {%d0}
+tagQuestRewardReputationNegative={%s1}声望减少 {%d0}
 tagQuestRewardAcceptButton=关闭
 tagQuestBlockedDescription=基于游戏建立者的进度，任务在此次游戏中已经锁定。
 
@@ -250,8 +250,8 @@ tagFactionOutlawsRewards5=N/A
 tagFactionOutlawsRewards6=N/A
 tagFactionOutlawsRewards7=N/A
 tagFactionOutlawsRewards8=N/A
-//tagFactionBeasts=野兽
-//tagFactionBeastsInfo=野兽就是野兽。
+tagFactionBeasts=野兽
+tagFactionBeastsInfo=野兽就是野兽。
 tagFactionUser0=流浪者
 tagFactionUser0Info=营地：古安克维亚{^n}{^n}罗瓦里人，或者说是平常称呼的流浪者，是一群没有固定居所的人们。对他们而言，敞开的道路就是他们永恒的家园，耗尽毕生的时光去游历整个凯恩世界来净化伴随着他们的世俗诱惑和堕落腐败的文化。他们的大部分历史都流失在了久远的岁月里，而大多数的文明都认为他们只是流浪汉和小偷。{^n}{^n}流浪者憎恨暴力，并且不惜一切地要避免它，这时常导致他们在暴徒的手中被肆意虐待。
 tagFactionUser0Rewards1=N/A
@@ -442,7 +442,7 @@ tagFactionReputationQuests=剧情任务 {^n}
 tagFactionDiscountPositive=声望折扣：{^r}+ {%.0f0}%
 tagFactionDiscountNegative=声望折扣：{^g}- {%.0f0}%
 tagFactionDiscountZero=声望折扣：{^s}{%.0f0}%
-tagFactionProgress=距离{%s0}{^w}还需要：{^b}{%d1} 点声望值
+tagFactionProgress=距离{%s0}{^w}还需要：{^b}{%d1} 声望
 tagFactionKillingGain=击杀以下敌人可以获得声望：
 tagFactionKillingLoss=击杀以下敌人可以扩大你在该势力的恶名：
 tagFactionRewardsTier=下一等级解锁：
@@ -524,9 +524,9 @@ tagHUDRiftgateButtonRoll=撕开一个小传送裂缝通道通向任何发现过�
 tagHUDQuickslot=未分配的快捷槽
 tagHUDQuickslotRoll=点击右键来分配技能。
 tagHUDQuickslotLM=左键分配
-tagHUDQuickslotLMRoll=主要攻击。点击右键分配技能
+tagHUDQuickslotLMRoll=主要攻击。点击右键分配技能。
 tagHUDQuickslotRM=右键分配
-tagHUDQuickslotRMRoll=次要攻击。点击右键分配技能
+tagHUDQuickslotRMRoll=次要攻击。点击右键分配技能。
 tagHUDQuickslotBarSwap=切换备用快捷栏。
 
 tagHUDButtonCharacter=人物窗口
@@ -636,14 +636,14 @@ tagLootFilter34Info=显示装备包含 攻击能力。
 tagLootFilter35=防御能力
 tagLootFilter35Info=显示装备包含 防御能力。
 tagLootFilter36=抗性
-tagLootFilter36Info=显示装备包含 对伤害、控制技或异常状态(如反弹伤害或减少伤害持续时间)的抗性。
+tagLootFilter36Info=显示装备包含 对伤害、控制技或异常状态(如反弹伤害或降低伤害持续时间)的抗性。
 tagLootFilter37=反击
 tagLootFilter37Info=显示装备包含 反击伤害。
 
 tagLootFilter38=镶嵌物
 tagLootFilter38Info=显示/隐藏 镶嵌物。
 tagLootFilter39=总是显示双稀有词缀掉落
-tagLootFilter39Info=勾选此项将忽略你的过滤器设置，总是显示拥双稀有词缀的物品（稀有和怪物专属掉落）。{^N}{^N}在你只希望寻找最强力的稀有或者专属掉落物品时使用。
+tagLootFilter39Info=勾选此项将忽略你的过滤器设置，总是显示拥双稀有词缀的物品(稀有和怪物专属掉落)。{^N}{^N}在你只希望寻找最强力的稀有或者专属掉落物品时使用。
 
 
 
@@ -655,14 +655,14 @@ tagSkillUndoGeneric=撤销
 tagSkillClassSelect=选择职业
 tagCurrentLevel=当前等级：{%d0}
 tagNextLevel=下一等级：{%d0}
-tagSkillClassSelectInfo=选择一个职业{^n}{^n}一旦你做出了选择并且退出了技能窗口，你的选择将被永久固定
-tagSkillReq01=还需要 {%d0} 点额外点数在{%t1}中
-tagSkillReq01Singular=还需要 {%d0} 点额外点数在{%t1}中
-tagSkillReq02=还需要 {%d0} 点额外点数在{%t1}中以及技能{%s2}
-tagSkillReq02Singular=还需要 {%d0} 点额外点数在{%t1}以及技能{%s2}中
-tagSkillReq03=需要学会技能{%s1}
-tagSkillPointsRemain={%d0} 点剩余点数
-tagSkillPointsRemainSingular={%d0} 点剩余点数
+tagSkillClassSelectInfo=选择一个职业{^n}{^n}一旦你做出了选择并且退出了技能窗口，你的选择将被永久固定。
+tagSkillReq01=还需要 {%d0} 点额外点数在 {%t1} 中。
+tagSkillReq01Singular=还需要 {%d0} 点额外点数在 {%t1} 中。
+tagSkillReq02=还需要 {%d0} 点额外点数在 {%t1} 中以及技能 {%s2}。
+tagSkillReq02Singular=还需要 {%d0} 点额外点数在 {%t1} 以及技能 {%s2} 中。
+tagSkillReq03=需要学会技能 {%s1}。
+tagSkillPointsRemain={%d0} 点剩余
+tagSkillPointsRemainSingular={%d0} 点剩余
 
 #Character
 
@@ -685,13 +685,13 @@ tagStatsResistance05Desc=对造成穿刺伤害的破甲投射物与利刃的抗�
 tagStatsResistance06=流血
 tagStatsResistance06Desc=抵抗由撕裂以及流血伤害法术造成的流血效果。
 tagStatsResistance07=活力
-tagStatsResistance07Desc=对造成生命力损伤和生命力衰减的生命汲取咒语的抗性。
+tagStatsResistance07Desc=对造成活力损伤和活力衰减的活力汲取咒语的抗性。
 tagStatsResistance08=虚化
 tagStatsResistance08Desc=对造成虚化伤害的虚化攻击和法术的抗性。
 tagStatsResistance09=眩晕
 tagStatsResistance09Desc=减少使你无法反抗的眩晕攻击和技能的持续时间。
 tagStatsResistance10=混乱
-tagStatsResistance10Desc=对宇宙本身的不稳定能量释放出的混乱伤害的抗性，冥煞常会使用这种力量。
+tagStatsResistance10Desc=对宇宙本身的不稳定能量释放出的混乱伤害的抗性。冥煞常会使用这种力量。
 tagStatsResistance11=击倒
 tagStatsResistance11Desc=对被击倒的抗性。
 tagStatsResistance12=打断
@@ -708,9 +708,9 @@ tagCharAttributeName05={^t}能量
 
 tagCharAttributeDescription01=敏捷的思维能改进你的战斗技巧，提高物理、穿刺、流血和创伤伤害。 灵巧也会提高你的承受能力，近战和远程攻击的命中几率以及暴击几率。
 
-tagCharAttributeDescription02=锻炼体格可以穿上更重的装备，并能灵敏地躲开敌人的攻击。 体格也能大副提升你承受和回复创伤的能力以及降低被暴击的机率。
+tagCharAttributeDescription02=锻炼体格可以穿上更重的装备，并能灵敏地躲开敌人的攻击。 体格也能大幅提高你承受和回复创伤的能力以及减少被暴击的机率。
 
-tagCharAttributeDescription03=强大的精神力会提升你体内的能量流动， 让你能承受更强的魔法装备所带来的精神负担。 精神也会提高你的承受能力，增强你的魔法伤害。
+tagCharAttributeDescription03=强大的精神力会提高你体内的能量流动， 让你能承受更强的魔法装备所带来的精神负担。 精神也会提高你的承受能力，增强你的魔法伤害。
 
 tagCharAttributeDescription04=生命值衡量在死之前你能承受多少的痛楚和伤害。
 
@@ -726,25 +726,25 @@ tagCharBonusPierceDmg=穿刺伤害加成：
 tagCharBonusMagicalDmg=魔法伤害加成：
 tagCharBonusDurDmg=持续性伤害加成：
 
-tagCharAttributeIncrement01=每一点提升10点灵巧。
-tagCharAttributeIncrement02=每一点提升10点体格。
-tagCharAttributeIncrement03=每一点提升10点精神。
-tagCharAttributeIncrement04=每一点提升50点生命值。
-tagCharAttributeIncrement05=每一点提升50点能量值。
+tagCharAttributeIncrement01=每一点提高 10点 灵巧。
+tagCharAttributeIncrement02=每一点提高 10点 体格。
+tagCharAttributeIncrement03=每一点提高 10点 精神。
+tagCharAttributeIncrement04=每一点提高 50点 生命值。
+tagCharAttributeIncrement05=每一点提高 50点 能量值。
 
 tagCharStatsOAAlert=攻击能力{^b}(?)
 tagCharStatsOA=攻击能力
 tagCharStatsOALast=最后攻击：
 tagCharStatsOAHit=命中几率：
 tagCharStatsOACrit=暴击几率：
-tagCharStatsOADescription=更高的攻击能力(OA)提升你攻击和法术的命中几率，暴击几率和暴击伤害。 攻击能力低于敌人的防御能力会极大地增加你的未命中几率(最低不会低于60%)。攻击能力受技能，物品和灵巧影响。
+tagCharStatsOADescription=更高的攻击能力(OA)提高你攻击和法术的命中几率，暴击几率和暴击伤害。 当攻击能力低于敌人的防御能力时会极大地增加你的失误几率(命中几率不会低于60%)。攻击能力受技能，物品和灵巧影响。
 
 tagCharStatsDAAlert=防御能力{^b}(?)
 tagCharStatsDA=防御能力
 tagCharStatsDALast=最后受到的攻击来自：
 tagCharStatsDAHit=被击中几率：
 tagCharStatsDACrit=被暴击几率：
-tagCharStatsDADescription=更高的防御能力(DA)提升你闪避敌人攻击的几率(被命中率不会低于60%)， 降低受到暴击的机率以及受到暴击时的伤害。防御能力受技能，物品和体格影响。
+tagCharStatsDADescription=更高的防御能力(DA)可以让你更频繁的躲避敌人的攻击(被命中的几率不会低于60%)， 减少受到暴击的机率以及受到暴击时的伤害。防御能力受技能，物品和体格影响。
 
 tagOverCapResist={%s0} {^b}{%.0f1}% {^s}(+{%.0f2}% 溢出上限)
 
@@ -774,8 +774,8 @@ tagFormatMinusPercent=- {%.0f}%
 tagFormatPlus=+ {%d0}
 tagFormatDash={%d0} - {%d1}
 tagFormatDashPercent={%d0}% - {%d1}%
-tagCharPointAvailable={^y}{%d0}{^w}点可用点数
-tagCharPointsAvailable={^y}{%d0}{^w}点可用点数
+tagCharPointAvailable={^y}{%d0}{^w} 点可用
+tagCharPointsAvailable={^y}{%d0}{^w} 点可用
 tagCharLevel={%d0} 级
 tagCharXP=经验值：{%t0}
 tagCharLevelAndClass={%d0} 级{%t1}
@@ -846,21 +846,21 @@ tagCharStatsMaximumSpeed=最大速度
 tagCharStatsAttacksPerSecond=每秒攻击次数
 tagCharStatsAttacksPerSecondInfoo=每秒使用武器的攻击次数，包含加成。
 tagCharStatsRunSpeed=奔跑速度
-tagCharStatsRunSpeedInfo=人物相对于基础值的奔跑速度(包含整体速度)。
+tagCharStatsRunSpeedInfo=人物相对于基础值的奔跑速度(包含所有速度加成)。
 tagCharStatsCritDmg=暴击伤害
 tagCharStatsCritDmgInfo=暴击伤害的百分比加成。暴击的几率由你的攻击能力和目标的防御能力的差距决定。
 tagCharStatsLifeRegen=生命回复
-tagCharStatsLifeRegenInfo=战斗中生命回复速度。加成只影响从装备和技能获得的回复速度，不影响基于体格的基本回复速度。
+tagCharStatsLifeRegenInfo=战斗中生命值回复速度。百分比加成只影响从装备和技能获得的回复速度，不影响基于体格的基本回复速度。
 tagCharStatsEnergyRegen=能量回复
-tagCharStatsEnergyRegenInfo=能量值回复速度。加成只影响从装备和技能获得的回复速度，不影响基于精神的基本回复速度。
+tagCharStatsEnergyRegenInfo=能量值回复速度。百分比加成只影响从装备和技能获得的回复速度，不影响基于精神的基本回复速度。
 tagCharStatsEnergyAbsorption=能量吸收
-tagCharStatsEnergyAbsorptionInfo=吸收敌人攻击和施法使用的能量为你所用的百分比加成。
+tagCharStatsEnergyAbsorptionInfo=吸收敌人攻击和施法使用的能量为你所用的百分比。
 tagCharStatsConstitution=体力加成
-tagCharStatsConstitutionInfo=最大体力值额外加成的百分比加成。
-tagCharStatsExpGainedBonus=经验加成
-tagCharStatsExpGainedBonusInfo=杀死怪物所得额外经验的百分比加成。
-tagCharStatsLightRadiusBonus=照亮范围奖励
-tagCharStatsLightRadiusBonusInfo=照亮范围额外的百分比加成。
+tagCharStatsConstitutionInfo=最大体力值的百分比加成。
+tagCharStatsExpGainedBonus=经验获取加成
+tagCharStatsExpGainedBonusInfo=击杀怪物所得经验的百分比加成。
+tagCharStatsLightRadiusBonus=光照范围加成
+tagCharStatsLightRadiusBonusInfo=角色周围光照范围的百分比加成。
 tagCharStatsAllSkillsBonus=所有技能加成
 tagCharStatsAllSkillsBonusInfo=所有已习得技能的额外加成
 tagCharStatsSoldierSkillsBonus=士兵技能加成
@@ -878,119 +878,119 @@ tagCharStatsShamanSkillsBonusInfo=所有萨满专精中已习得技能的额外�
 
 #Physical 物理
 tagCharStatsAttackSpeed=攻击速度
-tagCharStatsAttackSpeedDescription=相对于基本攻速的武器攻击速度(包含全速度加成)。慢速武器从攻速加成中的收益会减少。
+tagCharStatsAttackSpeedDescription=相对于基本攻速的武器攻击速度(包含所有速度加成)。慢速武器从攻速加成中的收益会减少。
 tagCharStatsAvgDmg=武器伤害
-tagCharStatsAvgDmgDescription=使用武器攻击每一击所造成的伤害值，已含加成。
+tagCharStatsAvgDmgDescription=使用武器攻击每一击造成的伤害值，含加成。
 
 tagCharStatsPhysicalAbsDmg=物理伤害
-tagCharStatsPhysicalAbsDmgInfo=使用武器攻击每一击所造成的物理伤害，已含加成。
+tagCharStatsPhysicalAbsDmgInfo=使用武器攻击每一击造成的物理伤害，含加成。
 tagCharStatsPhysicalPercentDmg=物理伤害加成
-tagCharStatsPhysicalPercentDmgInfo=攻击和法术造成的物理伤害额外加成的百分比加成。不含灵巧加成。全伤害类型百分比加成已包含在内。
+tagCharStatsPhysicalPercentDmgInfo=攻击和法术造成物理伤害的百分比加成。不含灵巧加成。包含所有类型伤害的百分比加。
 
 tagCharStatsPierceAbsDmg=穿刺伤害
-tagCharStatsPierceAbsDmgInfo=使用武器攻击每一击所造成的穿刺伤害，已含加成。
+tagCharStatsPierceAbsDmgInfo=使用武器攻击每一击造成的穿刺伤害，含加成。
 tagCharStatsPiercePercentDmg=穿刺伤害加成
-tagCharStatsPiercePercentDmgInfo=攻击和法术造成的穿刺伤害的额外加成的百分比加成，不含灵巧加成。全伤害类型百分比加成已包含在内。
+tagCharStatsPiercePercentDmgInfo=攻击和法术造成穿刺伤害的百分比加成，不含灵巧加成。包含所有类型伤害百分比加成。
 
 tagCharStatsBleedAbsDmg=流血伤害
-tagCharStatsBleedAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒流血伤害值，已含加成。
+tagCharStatsBleedAbsDmgInfo=每次武器攻击所造成的3秒内每秒流血伤害值，含加成。
 tagCharStatsBleedPercentDmg=流血伤害加成
-tagCharStatsBleedPercentDmgInfo=攻击和法术造成的流血伤害的额外加成的百分比加成。全伤害类型百分比加成已包含在内。
+tagCharStatsBleedPercentDmgInfo=攻击和法术造成流血伤害的的百分比加成。包含所有类型伤害百分比加成。
 tagCharStatsBleedDuration=流血效果持续时间
-tagCharStatsBleedDurationInfo=你的流血攻击持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsBleedDurationInfo=你的攻击的流血伤害持续时间的的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsInternalTraumaAbsDmg=创伤伤害
-tagCharStatsInternalTraumaAbsDmgInfo=使用武器攻击每一击所造成的5秒内每秒创伤伤害值，已含加成。
+tagCharStatsInternalTraumaAbsDmgInfo=使用武器攻击每一击所造成的5秒内的每秒创伤伤害，含加成。
 tagCharStatsInternalTraumaPercentDmg=创伤伤害加成
-tagCharStatsInternalTraumaPercentDmgInfo=攻击和法术造成的创伤伤害的额外加成的百分比加成。不含灵巧加成。全伤害类型百分比加成已包含在内。
+tagCharStatsInternalTraumaPercentDmgInfo=攻击和法术造成的创伤伤害的百分比加成。不含灵巧加成。包含所有类型伤害百分比加成。
 tagCharStatsInternalTraumaDuration=创伤效果持续时间
-tagCharStatsInternalTraumaDurationInfo=你的内部创伤攻击持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsInternalTraumaDurationInfo=你的攻击造成的创伤伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsDamageToHealth=生命窃取
-tagCharStatsDamageToHealthInfo=武器攻击回复生命的百分比加成。
+tagCharStatsDamageToHealthInfo=武器攻击恢复生命的百分比。
 
 #Magical 魔法
 tagCharStatsCastSpeed=施法速度
-tagCharStatsCastSpeedInfo=人物相对于基础值的施法速度(包含整体速度)。
+tagCharStatsCastSpeedInfo=人物相对于基础值的施法速度(包含所有速度加成)。
 
 tagCharStatsCooldownReduction=冷却时间缩短
-tagCharStatsCooldownReductionInfo=技能冷却时间缩短的百分比加成。通过装备获得的技能不享受冷却时间减少加成和特效。
+tagCharStatsCooldownReductionInfo=技能冷却时间缩短的百分比。通过装备获得的技能不享受冷却时间减少加成和特效。
 
-tagCharStatsManaCostReduction=技能的能量消耗减少
-tagCharStatsManaCostReductionInfo=减少技能施放所消耗能量值的百分比加成。
+tagCharStatsManaCostReduction=能量消耗降低
+tagCharStatsManaCostReductionInfo=施放技能所消耗能量值降低的百分比。
 
-tagCharStatsPercentHealthDamage=生命值百分比加成伤害
-tagCharStatsPercentHealthDamageInfo=基础攻击每一击所造成的计算当前生命值百分比加成的伤害，已含加成。
+tagCharStatsPercentHealthDamage=生命比伤害
+tagCharStatsPercentHealthDamageInfo=使用武器攻击每一击对目标造成当前生命值百分比的伤害。
 
 tagCharStatsFireAbsDmg=火焰伤害
-tagCharStatsFireAbsDmgInfo=使用武器攻击每一击所造成的火焰伤害，已含加成。
+tagCharStatsFireAbsDmgInfo=使用武器攻击每一击所造成的火焰伤害，含加成。
 tagCharStatsFirePercentDmg=火焰伤害加成
-tagCharStatsFirePercentDmgInfo=攻击和法术造成的火焰伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsFirePercentDmgInfo=攻击和法术造成的所有火焰伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsColdAbsDmg=冰冷伤害
-tagCharStatsColdAbsDmgInfo=使用武器攻击每一击所造成的冰冷伤害，已含加成。
+tagCharStatsColdAbsDmgInfo=使用武器攻击每一击所造成的冰冷伤害，含加成。
 tagCharStatsColdPercentDmg=冰冷伤害加成
-tagCharStatsColdPercentDmgInfo=攻击和法术造成的冰冷伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsColdPercentDmgInfo=攻击和法术造成的所有冰冷伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsLightningAbsDmg=闪电伤害
-tagCharStatsLightningAbsDmgInfo=使用武器攻击每一击所造成的闪电伤害，已含加成。
+tagCharStatsLightningAbsDmgInfo=使用武器攻击每一击所造成的闪电伤害，含加成。
 tagCharStatsLightningPercentDmg=闪电伤害加成
-tagCharStatsLightningPercentDmgInfo=攻击和法术造成的闪电伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsLightningPercentDmgInfo=攻击和法术造成的所有闪电伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsAcidAbsDmg=酸性伤害
-tagCharStatsAcidAbsDmgInfo=使用武器攻击每一击所造成的酸性伤害，已含加成。
+tagCharStatsAcidAbsDmgInfo=使用武器攻击每一击所造成的酸性伤害，含加成。
 tagCharStatsAcidPercentDmg=酸性伤害加成
-tagCharStatsAcidPercentDmgInfo=攻击和法术造成的酸性伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsAcidPercentDmgInfo=攻击和法术造成的所有酸性伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsVitalityAbsDmg=活力伤害
-tagCharStatsVitalityAbsDmgInfo=使用武器攻击每一击所造成的活力伤害，已含加成。
+tagCharStatsVitalityAbsDmgInfo=使用武器攻击每一击所造成的活力伤害，含加成。
 tagCharStatsVitalityPercentDmg=活力伤害加成
-tagCharStatsVitalityPercentDmgInfo=攻击和法术造成的活力伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsVitalityPercentDmgInfo=攻击和法术造成的所有活力伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsAetherAbsDmg=虚化伤害
-tagCharStatsAetherAbsDmgInfo=使用武器攻击每一击所造成的虚化伤害，已含加成。
+tagCharStatsAetherAbsDmgInfo=使用武器攻击每一击所造成的虚化伤害，含加成。
 tagCharStatsAetherPercentDmg=虚化伤害加成
-tagCharStatsAetherPercentDmgInfo=攻击和法术造成的虚化伤害的额外加成的百分比加成。不含精神加成。
+tagCharStatsAetherPercentDmgInfo=攻击和法术造成的所有虚化伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsChaosAbsDmg=混乱伤害
-tagCharStatsChaosAbsDmgInfo=使用武器攻击每一击所造成的混乱伤害值，已含加成。
+tagCharStatsChaosAbsDmgInfo=使用武器攻击每一击所造成的混乱伤害值，含加成。
 tagCharStatsChaosPercentDmg=混乱伤害加成
-tagCharStatsChaosPercentDmgInfo=攻击和法术造成的混乱伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsChaosPercentDmgInfo=攻击和法术造成的所有混乱伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 
 tagCharStatsBurnAbsDmg=燃烧伤害
-tagCharStatsBurnAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒燃烧伤害值，已含加成。
+tagCharStatsBurnAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒燃烧伤害值，含加成。
 tagCharStatsBurnPercentDmg=燃烧伤害加成
-tagCharStatsBurnPercentDmgInfo=攻击和法术造成的燃烧伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsBurnPercentDmgInfo=攻击和法术造成的所有燃烧伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 tagCharStatsBurnDuration=燃烧效果持续时间
-tagCharStatsBurnDurationInfo=你的燃烧伤害持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsBurnDurationInfo=你的燃烧伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsColdburnAbsDmg=霜燃伤害
-tagCharStatsColdburnAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒霜燃伤害值，已含加成。
+tagCharStatsColdburnAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒霜燃伤害值，含加成。
 tagCharStatsColdburnPercentDmg=霜燃伤害加成
-tagCharStatsColdburnPercentDmgInfo=攻击和法术造成的霜燃伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsColdburnPercentDmgInfo=攻击和法术造成的所有霜燃伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 tagCharStatsColdburnDuration=霜燃效果持续时间
-tagCharStatsColdburnDurationInfo=你的霜燃伤害持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsColdburnDurationInfo=你的霜燃伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsElectrocuteAbsDmg=电击伤害
-tagCharStatsElectrocuteAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒电击伤害值，已含加成。
+tagCharStatsElectrocuteAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒电击伤害值，含加成。
 tagCharStatsElectrocutePercentDmg=电击伤害加成
-tagCharStatsElectrocutePercentDmgInfo=攻击和法术造成的电击伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsElectrocutePercentDmgInfo=攻击和法术造成的所有电击伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 tagCharStatsElectrocuteDuration=电击效果持续时间
-tagCharStatsElectrocuteDurationInfo=你的电击伤害持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsElectrocuteDurationInfo=你的电击伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsPoisonAbsDmg=毒素伤害
-tagCharStatsPoisonAbsDmgInfo=使用武器攻击每一击所造成的5秒内每秒毒素伤害值，已含加成。
+tagCharStatsPoisonAbsDmgInfo=使用武器攻击每一击所造成的5秒内每秒毒素伤害值，含加成。
 tagCharStatsPoisonPercentDmg=毒素伤害加成
-tagCharStatsPoisonPercentDmgInfo=攻击和法术造成的毒素伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsPoisonPercentDmgInfo=攻击和法术造成的所有毒素伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 tagCharStatsPoisonDuration=毒素效果持续时间
-tagCharStatsPoisonDurationInfo=你的毒素伤害持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsPoisonDurationInfo=你的毒素伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsVitalityDecayAbsDmg=活力衰减伤害
-tagCharStatsVitalityDecayAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒活力衰减伤害值，已含加成。
+tagCharStatsVitalityDecayAbsDmgInfo=使用武器攻击每一击所造成的3秒内每秒活力衰减伤害值，含加成。
 tagCharStatsVitalityDecayPercentDmg=活力衰减伤害加成
-tagCharStatsVitalityDecayPercentDmgInfo=攻击和法术造成的活力衰减伤害的额外加成的百分比加成。不含精神加成。全伤害类型百分比加成已包含在内。
+tagCharStatsVitalityDecayPercentDmgInfo=攻击和法术造成的所有活力衰减伤害的百分比加成。不含精神加成。包含所有类型伤害百分比加成。
 tagCharStatsVitalityDecayDuration=活力衰减效果持续时间
-tagCharStatsVitalityDecayDurationInfo=你的活力衰减伤害持续时间的额外加成的百分比加成，每秒造成的伤害不会提高。
+tagCharStatsVitalityDecayDurationInfo=你的活力衰减伤害持续时间的百分比加成。每秒造成的伤害不会因此提高。
 
 tagCharStatsPhysical=物理
 tagCharStatsPierce=穿刺
@@ -1014,56 +1014,56 @@ tagCharStatsDurLifeLeech=生命吸取
 tagCharStatsDurManaLeech=能量吸取
 
 #Pets 宠物
-tagCharStatsPetHealth=战宠生命加成
-tagCharStatsPetHealthInfo=你的战宠和召唤物的生命加成的百分比加成。
+tagCharStatsPetHealth=战宠生命值加成
+tagCharStatsPetHealthInfo=你的战宠和召唤物生命值的百分比加成。
 
 tagCharStatsPetDamage=战宠伤害加成
-tagCharStatsPetDamageInfo=你的战宠和召唤物所造成的伤害加成的百分比加成。全伤害类型百分比加成已包含在内。
+tagCharStatsPetDamageInfo=你的战宠和召唤物所造成的伤害的百分比加成。包含所有类型伤害百分比加成。
 
 tagCharStatsPetAttackSpeed=战宠攻速加成
-tagCharStatsPetAttackSpeedInfo=你的战宠和召唤物的攻击速度加成的百分比加成。
+tagCharStatsPetAttackSpeedInfo=你的战宠和召唤物的攻击速度的百分比加成。
 
 tagCharStatsPetCastSpeed=战宠施法速度加成
-tagCharStatsPetCastSpeednfo=你的战宠和召唤物的施法速度加成的百分比加成。
+tagCharStatsPetCastSpeednfo=你的战宠和召唤物的施法速度的百分比加成。
 
 tagCharStatsPetRunSpeed=战宠移动速度加成
-tagCharStatsPetRunSpeednfo=你的战宠和召唤物的移动速度加成的百分比加成。
+tagCharStatsPetRunSpeednfo=你的战宠和召唤物的移动速度的百分比加成。
 
 tagCharStatsPetOA=战宠攻击能力加成
-tagCharStatsPetOAInfo=你的战宠和召唤物的攻击能力加成的百分比加成。
+tagCharStatsPetOAInfo=你的战宠和召唤物的攻击能力的百分比加成。
 
 tagCharStatsPetDA=战宠防御能力加成
-tagCharStatsPetDAInfo=你的战宠和召唤物的防御能力加成的百分比加成。
+tagCharStatsPetDAInfo=你的战宠和召唤物的防御能力的百分比加成。
 
 tagCharStatsPetPhysicalResist=战宠物理抗性
-tagCharStatsPetPhysicalResistInfo=你的战宠和召唤物的物理抗性加成的百分比加成。
+tagCharStatsPetPhysicalResistInfo=你的战宠和召唤物的物理抗性的百分比加成。
 
 tagCharStatsPetFireResist=战宠火焰抗性
-tagCharStatsPetFireResistInfo=你的战宠和召唤物火焰抗性加成的百分比加成。
+tagCharStatsPetFireResistInfo=你的战宠和召唤物火焰抗性的百分比加成。
 
 tagCharStatsPetColdResist=战宠冰冷抗性
-tagCharStatsPetColdResistInfo=你的战宠和召唤物冰冷抗性加成的百分比加成。
+tagCharStatsPetColdResistInfo=你的战宠和召唤物冰冷抗性的百分比加成。
 
 tagCharStatsPetLightningResist=战宠闪电抗性
-tagCharStatsPetLightningResistInfo=你的战宠和召唤物闪电抗性加成的百分比加成。
+tagCharStatsPetLightningResistInfo=你的战宠和召唤物闪电抗性的百分比加成。
 
 tagCharStatsPetPoisonResist=战宠毒酸抗性
 tagCharStatsPetPoisonResistInfo=你的战宠和召唤物毒酸抗性加成的百分比加成。
 
 tagCharStatsPetPierceResist=战宠穿刺抗性
-tagCharStatsPetPierceResistInfo=你的战宠和召唤物穿刺抗性加成的百分比加成。
+tagCharStatsPetPierceResistInfo=你的战宠和召唤物穿刺抗性的百分比加成。
 
 tagCharStatsPetBleedResist=战宠流血抗性
-tagCharStatsPetBleedResistInfo=你的战宠和召唤物流血抗性加成的百分比加成。
+tagCharStatsPetBleedResistInfo=你的战宠和召唤物流血抗性的百分比加成。
 
 tagCharStatsPetVitalityResist=战宠活力抗性
-tagCharStatsPetVitalityResistInfo=你的战宠和召唤物活力抗性加成的百分比加成。
+tagCharStatsPetVitalityResistInfo=你的战宠和召唤物活力抗性的百分比加成。
 
 tagCharStatsPetAetherResist=战宠虚化抗性
-tagCharStatsPetAetherResistInfo=你的战宠和召唤物虚化抗性加成的百分比加成。
+tagCharStatsPetAetherResistInfo=你的战宠和召唤物虚化抗性的百分比加成。
 
 tagCharStatsPetChaosResist=战宠混乱抗性
-tagCharStatsPetChaosResistInfo=你的战宠和召唤物混乱抗性加成的百分比加成。
+tagCharStatsPetChaosResistInfo=你的战宠和召唤物混乱抗性的百分比加成。
 
 #CharStatsTab3 人物属性栏3
 
@@ -1075,13 +1075,13 @@ tagCharStatsBlockAmount=格挡值
 tagCharStatsBlockAmountDescription=一次成功格挡的伤害减免数值。
 
 tagCharStatsBlockRecovery=格挡恢复速度
-tagCharStatsBlockRecoveryInfo=降低格挡恢复所需时间的比例。
+tagCharStatsBlockRecoveryInfo=减少格挡恢复所需时间的百分比。
 
 tagCharStatsDodgeChance=闪避几率
 tagCharStatsDodgeChanceInfo=闪避一次近战攻击的几率，无视该次攻击伤害。
 
 tagCharStatsProjDeflectChance=偏斜几率
-tagCharStatsProjDeflectChanceInfo=避开一次远程攻击的几率，无视该次攻击伤害。
+tagCharStatsProjDeflectChanceInfo=偏斜一次远程攻击的几率，无视该次攻击伤害。
 
 tagCharStatsPhysicalResist=物理抗性
 tagCharStatsPhysicalResistInfo=对造成物理伤害和创伤伤害的攻击和技能的抗性。
@@ -1101,7 +1101,7 @@ tagCharStatsTrapResistInfo=对陷阱禁锢效果的的抗性。
 tagCharStatsPetrifyResist=石化抗性
 tagCharStatsPetrifyResistInfo=对使你失去反抗能力的石化法术的抗性。
 
-tagCharStatsFreezeResist=冰冻抗性
+tagCharStatsFreezeResist=冻结抗性
 tagCharStatsFreezeResistInfo=对使你冻结并失去反抗能力的法术的抗性。
 
 tagCharStatsSleepResist=昏睡抗性
@@ -1111,91 +1111,91 @@ tagCharStatsSlowResist=减速抗性
 tagCharStatsSlowResistInfo=对所有能减慢你攻击、施法和移动速度的效果的抗性。
 
 #Retaliation反击
-tagCharStatsDamageReflect=反击伤害
-tagCharStatsDamageReflectInfo=你所受到的伤害会被反馈给攻击者的比率。
+tagCharStatsDamageReflect=伤害反弹
+tagCharStatsDamageReflectInfo=你所受到的伤害会被反馈给攻击者的百分比。
 
 tagCharStatsCurrentLifeReflect=生命反击
-tagCharStatsCurrentLifeReflectInfo=无论何时你受到攻击，以该比率基于敌人当前生命值实施反击。
+tagCharStatsCurrentLifeReflectInfo=无论何时你受到攻击，以该百分比基于敌人当前生命值实施反击。
 
 tagCharStatsPhysicalRet=物理反击
 tagCharStatsPhysicalRetInfo=当你被攻击时对攻击者造成的物理伤害。
 tagCharStatsPhysicalPercentRet=物理反击加成
-tagCharStatsPhysicalPercentRetInfo=所有物理伤害反击效果百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsPhysicalPercentRetInfo=所有物理伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsPierceRet=穿刺反击
 tagCharStatsPierceRetInfo=当你被攻击时对攻击者造成的穿刺伤害。
 tagCharStatsPiercePercentRet=穿刺反击加成
-tagCharStatsPiercePercentRetInfo=所有穿刺伤害反击效果百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsPiercePercentRetInfo=所有穿刺伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsBleedRet=流血反击
 tagCharStatsBleedRetInfo=当你被攻击时对攻击者造成3秒内每秒的流血伤害。
 tagCharStatsBleedPercentRet=流血反击加成
-tagCharStatsBleedPercentRetInfo=所有流血伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsBleedPercentRetInfo=所有流血伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsInternalTraumaRet=创伤反击
 tagCharStatsInternalTraumaRetInfo=当你被攻击时对攻击者造成5秒内每秒的创伤伤害。
 tagCharStatsInternalTraumaPercentRet=创伤反击加成
-tagCharStatsInternalTraumaPercentRetInfo=所有创伤伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsInternalTraumaPercentRetInfo=所有创伤伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsFireRet=火焰反击
 tagCharStatsFireRetInfo=当你被攻击时对攻击者造成的火焰伤害。
 tagCharStatsFirePercentRet=火焰反击加成
-tagCharStatsFirePercentRetInfo=所有火焰伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsFirePercentRetInfo=所有火焰伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsColdRet=冰冷反击
 tagCharStatsColdRetInfo=当你被攻击时对攻击者造成的冰冷伤害。
 tagCharStatsColdPercentRet=冰冷反击加成
-tagCharStatsColdPercentRetInfo=所有冰冷伤害反击效果的百分比加成。
+tagCharStatsColdPercentRetInfo=所有冰冷伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsLightningRet=闪电反击
 tagCharStatsLightningRetInfo=当你被攻击时对攻击者造成的闪电伤害。
 tagCharStatsLightningPercentRet=闪电反击加成
-tagCharStatsLightningPercentRetInfo=所有闪电伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsLightningPercentRetInfo=所有闪电伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsAcidRet=酸性反击
 tagCharStatsAcidRetInfo=当你被攻击时对攻击者造成的酸性伤害。
 tagCharStatsAcidPercentRet=酸性反击加成
-tagCharStatsAcidPercentRetInfo=所有酸性伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsAcidPercentRetInfo=所有酸性伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsVitalityRet=活力反击
 tagCharStatsVitalityRetInfo=当你被攻击时对攻击者造成的活力伤害。
 tagCharStatsVitalityPercentRet=活力反击加成
-tagCharStatsVitalityPercentRetInfo=所有活力伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsVitalityPercentRetInfo=所有活力伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsAetherRet=虚化反击
 tagCharStatsAetherRetInfo=当你被攻击时对攻击者造成的虚化伤害。
-tagCharStatsAetherPercentRet=虚化加成
-tagCharStatsAetherPercentRetInfo=所有虚化伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsAetherPercentRet=虚化反击加成
+tagCharStatsAetherPercentRetInfo=所有虚化伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsChaosRet=混乱反击
 tagCharStatsChaosRetInfo=当你被攻击时对攻击者造成的混乱伤害。
 tagCharStatsChaosPercentRet=混乱反击加成
-tagCharStatsChaosPercentRetInfo=所有混乱伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsChaosPercentRetInfo=所有混乱伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsBurnRet=燃烧反击
 tagCharStatsBurnRetInfo=当你被攻击时对攻击者造成3秒内每秒的燃烧伤害。
 tagCharStatsBurnPercentRet=燃烧反击加成
-tagCharStatsBurnPercentRetInfo=所有燃烧伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsBurnPercentRetInfo=所有燃烧伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsColdburnRet=霜燃反击
 tagCharStatsColdburnRetInfo=当你被攻击时对攻击者造成3秒内每秒的霜燃伤害。
 tagCharStatsColdburnPercentRet=霜燃反击加成
-tagCharStatsColdburnPercentRetInfo=所有霜燃反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsColdburnPercentRetInfo=所有霜燃反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsElectrocuteRet=电击反击
-tagCharStatsElectrocuteRetInfo=当你受到攻击时对攻击者造成持续3秒的电击伤害。
+tagCharStatsElectrocuteRetInfo=当你被攻击时对攻击者造成3秒内每秒的电击伤害。
 tagCharStatsElectrocutePercentRet=电击反击加成
-tagCharStatsElectrocutePercentRetInfo=所有电击伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsElectrocutePercentRetInfo=所有电击伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsPoisonRet=毒素反击
 tagCharStatsPoisonRetInfo=当你被攻击时对攻击者造成5秒内每秒的毒素伤害。
 tagCharStatsPoisonPercentRet=毒素反击加成
-tagCharStatsPoisonPercentRetInfo=所有毒素伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsPoisonPercentRetInfo=所有毒素伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 tagCharStatsVitalityDecayRet=活力衰减反击
 tagCharStatsVitalityDecayRetInfo=当你被攻击时对攻击者造成3秒内每秒的活力衰减伤害。
 tagCharStatsVitalityDecayPercentRet=活力衰减反击加成
-tagCharStatsVitalityDecayPercentRetInfo=所有活力衰减伤害反击效果的百分比加成。全伤害类型的加成不会影响反击伤害。
+tagCharStatsVitalityDecayPercentRetInfo=所有活力衰减伤害反击效果的百分比加成。所有类型伤害百分比加成不会影响反击伤害。
 
 #Stats 统计
 tagCharStatsItemLevel=平均物品等级
@@ -1209,7 +1209,7 @@ tagRecordMonsterKills=已击杀的怪物
 tagRecordMonsterKillsInfo=你的角色击杀的怪物总数。
 
 tagRecordChampionKills=已击杀的首领和英雄
-tagRecordChampionKillsInfo=你的角色击杀过的敌方英雄和首领的数量。
+tagRecordChampionKillsInfo=你的角色击杀过的敌方英雄和首领的总数。
 
 tagRecordHighestMonster=已击杀的最强怪物
 tagRecordHighestMonsterInfo=你的角色击杀过的最强大的怪物。
@@ -1306,13 +1306,13 @@ tagCraftingItemType02= ~ 完整补给品
 tagCraftingItemType03= ~ 卷轴
 tagCraftingItemType04= ~ 装备
 
-tagCraftingButtonInfo=合成放置在锻造窗口的物品。该按钮会在添加所有需要的材料后高亮显示。
+tagCraftingButtonInfo=组合放在制作窗口中的物品。该按钮会在添加所有需要的材料后高亮显示。
 tagCraftingConfirmation=你确定要进行合成吗？
 
 tagCraftingDetatchmentInfo=
 
-tagCraftingProductBoxInfo=一旦所需材料均已就位，要锻造的物品就会在这里出现。
-tagCraftingProductBoxCompletion=从工作台上取走你刚刚锻造的物品。
+tagCraftingProductBoxInfo=一旦所需材料均已就位，要制作的物品就会在这里出现。
+tagCraftingProductBoxCompletion=从工作台上取走你刚刚制作的物品。
 
 tagCraftingInsterComponent=把设计图特定的部件放入到这些空位中。
 
@@ -1440,7 +1440,7 @@ tagMapWindowName=本地地图
 tagRiftWindowName=裂缝地图
 tagWorldMapWindowName=世界地图
 
-tagMapSymbolAOI=出入口
+tagMapSymbolAOI=出入口(POI)
 tagMapSymbolAOIDesc=一处你可能感兴趣的地点。
 tagMapSymbolSmuggler=走私者
 tagMapSymbolSmugglerDesc=一名保存你的装备并能在各个角色之间转移装备的不法分子。
@@ -1489,11 +1489,11 @@ TripleStringFormat2={%s0} {%s1}{%s2}
 QuadStringFormat={%s0}{%s1}{%s2}{%s3}
 SkillBaseNamesFormat={    %s0}
 CostFormat=花费：{%d0}
-ManaDisplayFormat=能量值 {%d0} / {%d1} ({%d2} 点预留)
+ManaDisplayFormat=能量值 {%d0} / {%d1} ({%d2} 预留)
 LifeDisplayFormat=生命值 {%d0} / {%d1}
-ExperienceDisplayFormat=当前经验值：{^y}{%d0}{^w} ~ 距离下一级还需要：{^y}{%d1}点经验值
+ExperienceDisplayFormat=当前经验值：{^y}{%d0}{^w} ~ 距离下一级还需要：{^y}{%d1} 经验
 
-tagExpDisplayFormat=当前经验值：{^y}{%t0}{^w} ~ 距离下一级还需要：{^y}{%t1}点经验值
+tagExpDisplayFormat=当前经验值：{^y}{%t0}{^w} ~ 距离下一级还需要：{^y}{%t1} 经验
 
 tagCharPointsSpent=已使用属性点数：
 
@@ -1511,15 +1511,15 @@ tagCharAttribute02Modifier={%+.0f0}% {^o}体格
 tagCharAttribute03Modifier={%+.0f0}% {^c}精神
 tagCharAttribute04Modifier={%+.0f0}% {^f}生命
 tagCharAttribute05Modifier={%+.0f0}% {^t}能量
-tagCharLifeRegenModifier={^E}生命回复速度提高 {^H}{%.0f0}%
 tagCharConstitutionModifier={%+.0f0}% {^E}体力
+tagCharLifeRegenModifier={^E}生命回复速度提高 {^H}{%.0f0}%
 tagCharManaRegenModifier={^E}能量回复速度提高 {^H}{%.0f0}%
 
-tagCharManaLimitReserve={%.0f0} {^E}点预留能量值
-tagCharManaLimitReserveMod={%+.0f0} {^E}点预留能量值
-tagCharManaLimitReserveReduction={^E}预留能量值减少 {%.0f0}
-tagCharManaLimitReserveModifier={^E}预留能量值 {+%.0f0}%
-tagCharManaLimitReserveReductionModifier={^E}预留能量值减少效果提高 {%.0f0}%
+tagCharManaLimitReserve={%.0f0} {^E}点预留能量
+tagCharManaLimitReserveMod={%+.0f0} {^E}点预留能量
+tagCharManaLimitReserveReduction=-{%.0f0} {^E}预留能量消耗
+tagCharManaLimitReserveModifier={+%.0f0}% {^E}能量预留
+tagCharManaLimitReserveReductionModifier=-{%.0f0}% {^E}能量预留
 
 tagCharRunSpeed={%+.0f0}% {^k}移动速度
 tagCharSpellCastSpeed={%+.0f0}% {^p}施法速度
@@ -1545,8 +1545,8 @@ tagCharLifeRegenModifierR={^E}生命回复速度提高 {^H}{%.0f0}-{%.0f1}%
 tagCharManaRegenModifierR={^E}能量回复速度提高 {^H}{%.0f0}-{%.0f1}%
 tagCharManaLimitReserveR={%+.0f0}-{%.0f1} {^E}预留能量
 tagCharManaLimitReserveReductionR=-({%.0f0}-{%.0f1}) {^E}预留能量消耗
-tagCharManaLimitReserveModifierR={+%.0f0}-{%.0f1}% {^E}预留能量
-tagCharManaLimitReserveReductionModifierR=-({%.0f0}-{%.0f1}%) {^E}预留能量
+tagCharManaLimitReserveModifierR={+%.0f0}-{%.0f1}% {^E}能量预留
+tagCharManaLimitReserveReductionModifierR=-({%.0f0}-{%.0f1}%) {^E}能量预留
 tagCharRunSpeedR={%+.0f0}-{%.0f1}% {^k}移动速度
 tagCharSpellCastSpeedR={%+.0f0}-{%.0f1}% {^p}施法速度
 tagCharAttackSpeedR={%+.0f0}-{%.0f1}% {^p}攻击速度
@@ -1559,12 +1559,12 @@ tagCharDefensiveAbilityR={%+.0f0}-{%.0f1} {^E}防御能力
 tagCharOffensiveAbilityModifierR={%+.0f0}-{%.0f1}% {^E}攻击能力
 tagCharDefensiveAbilityModifierR={%+.0f0}-{%.0f1}% {^E}防御能力
 tagCharDefensiveBlockRecoveryReductionR=-({%.0f0}-%.0f1})% {^E}格挡恢复时间
-tagCharEnergyAbsorptionPercentR={%+.0f0}-{%.0f1}% {^E}敌人法术能量吸取
+tagCharEnergyAbsorptionPercentR={%+.0f0}-{%.0f1}% {^E}敌人法术能量吸收
 tagCharDodgePercentR={%.0f0}-{%.0f1}% {^E}几率无视近战攻击
 tagCharDeflectProjectilesR={%.0f0}-{%.0f1}% {^E}几率无视投射物
-tagCharIncreasedExperienceR={^E}经验获取提升 {^H}{%+.0f0}-{%.0f1}%
-tagCharLightRadiusR={^E}光照范围提升 {^H}{%+.0f0}-{%.0f1}%
-tagCharItemGlobalReductionR={^E}装备物品所需属性减少 {^H}{%.0f0}-{%.0f1}%
+tagCharIncreasedExperienceR={^E}经验获取 {^H}{%+.0f0}-{%.0f1}%
+tagCharLightRadiusR={^E}光照范围 {^H}{%+.0f0}-{%.0f1}%
+tagCharItemGlobalReductionR={^E}装备物品所需属性 {^H}-({%.0f0}-{%.0f1}%)
 tagCharLevelReqReductionR={^E}装备物品所需等级 {^H}-({%.0f0}-{%.0f1})
 tagCharArmorStrengthReqReductionR={^E}装备护甲所需{^o}体格 {^H}-({%.0f0}-{%.0f1}%)
 tagCharArmorDexterityReqReductionR={^E}装备护甲所需{^z}灵巧 {^H}-({%.0f0}--{%.0f1}%)
@@ -1591,11 +1591,11 @@ tagCharWeaponIntelligenceReqReductionR={^E}装备所有武器所需{^c}精神 {^
 tagCharWeaponStrengthReqReductionR={^E}装备所有武器所需{^o}体格 {^H}-({%.0f0}-{%.0f1}%)
 tagCharWeaponDexterityReqReductionR={^E}装备所有武器所需{^z}灵巧 {^H}-({%.0f0}-{%.0f1}%)
 
-SkillManaCostReductionR={^E}技能能量消耗 {^H}-{%.0f0}%
-SkillCooldownReductionR={^E}技能冷却时间 {^H}-{%.0f0}%
-SkillProjectileSpeedModifierR={^E}投射物飞行速度 {^H}{%+.0f0}%
-SkillManaCostReductionModifierR={^E}技能能量消耗减少效果提高 {^H}{%.0f0}%
-SkillCooldownReductionModifierR={^E}技能冷却时间缩短效果提高 {^H}{%.0f0}%
+SkillManaCostReductionR=-{%.0f0}% {^E}技能能量消耗
+SkillCooldownReductionR=-{%.0f0}% {^E}技能冷却时间
+SkillProjectileSpeedModifierR={%+.0f0}% {^E}投射物飞行速度
+SkillManaCostReductionModifierR=-{%.0f0}% {^E}技能能量消耗
+SkillCooldownReductionModifierR=-{%.0f0}% {^E}技能冷却时间
 
 tagDamageConversion={%.0f0}% {%s1}^e转换为^-{%s2}
 tagDamageRemoval={^E}{%s1}减少 {^s}{%.0f0}%
@@ -1618,23 +1618,23 @@ tagAttackSpeedAverage=速度：中等
 tagAttackSpeedFast=速度：快速
 tagAttackSpeedVeryFast=速度：非常快
 
-tagAttackSpeed={^S}每秒攻击 {^W}{%.2f0}{^S} 次
-tagAttackSpeedR={^S}每秒攻击 {^W}{%.2f0}-{%.2f1}{^S} 次
+tagAttackSpeed={^S}每秒攻击 {^W}{%.2f0} {^S}次
+tagAttackSpeedR={^S}每秒攻击 {^W}{%.2f0}-{%.2f1} {^S}次
 
-tagCharOffensiveAbility={^E}攻击能力 {^H}{%+.0f0}
-tagCharDefensiveAbility={^E}防御能力 {^H}{%+.0f0}
-tagCharOffensiveAbilityModifier={^E}攻击能力 {^H}{%+.0f0}%
-tagCharDefensiveAbilityModifier={^E}防御能力 {^H}{%+.0f0}%
+tagCharOffensiveAbility={%+.0f0} {^E}攻击能力
+tagCharDefensiveAbility={%+.0f0} {^E}防御能力
+tagCharOffensiveAbilityModifier={%+.0f0}% {^E}攻击能力
+tagCharDefensiveAbilityModifier={%+.0f0}% {^E}防御能力
 
-tagCharDefensiveBlockRecoveryReduction={^E}格挡恢复时间 {^H}{-%.0f0}%
-tagCharEnergyAbsorptionPercent={^E}敌人法术能量吸收 {^H}{%+.0f0}%
-tagCharDodgePercent={%.0f0}% {^E}几率无视近战攻击
-tagCharDeflectProjectiles={%.0f0}% {^E}几率无视投射物
+tagCharDefensiveBlockRecoveryReduction={-%.0f0}% {^E}格挡恢复时间
+tagCharEnergyAbsorptionPercent={%+.0f0}% {^E}敌人法术能量吸收
+tagCharDodgePercent={%.0f0}% {^E}的几率无视近战攻击
+tagCharDeflectProjectiles={%.0f0}% {^E}的几率无视投射物
 
 tagCharIncreasedExperience={^E}经验获取 {^H}{%+.0f0}%
 tagCharLightRadius={^E}光照范围 {^H}{%+.0f0}%
 
-tagCharItemGlobalReduction={^E}装备需求的所有属性减少 {^H}{%.0f0}%
+tagCharItemGlobalReduction={^E}装备物品所需属性 {^H}-{%.0f0}%
 tagCharLevelReqReduction={^E}装备物品所需等级 {^H}-{%.0f0}
 tagCharArmorStrengthReqReduction={^E}装备护甲所需{^o}体格 {^H}-{%.0f0}%
 tagCharArmorDexterityReqReduction={^E}装备护甲所需{^z}灵巧 {^H}-{%.0f0}%
@@ -1698,8 +1698,8 @@ tagDodge=闪避
 tagBlock=格挡
 tagDeflect=偏斜
 tagInvulnerable=无敌的
-GiveMoneyFormat=+{%d0}铁币
-TakeMoneyFormat={%d0}铁币
+GiveMoneyFormat=+{%d0} 铁币
+TakeMoneyFormat={%d0} 铁币
 ExperienceFormat=经验值 +{%d0}
 FactionFormat={%s1}声望 +{%d0}
 FactionUnlocked=解锁{%s0}
@@ -1709,7 +1709,7 @@ AttributePointFormat={%d0} 点属性点数
 MenuName=名字：
 MenuLevel=等级：{%d0}
 ItemSkillIncrement={^L}{%s1} {^E}技能等级 {^H}{+%d0}
-ItemMasteryIncrement={^L}{%s1} {^E}所有技能{^H}{+%d0}
+ItemMasteryIncrement={^L}{%s1} {^E}所有技能 {^H}{+%d0}
 ItemAllSkillIncrement={^y}所有技能 {^H}{+%d0}
 ItemBasicAttributeBanner={^w}
 ItemBonusAttributeBanner={^b}
@@ -1762,14 +1762,14 @@ SkillPetLimitMod=+{%d0} {^E}最大召唤个数
 SkillLifeBonus={%+.1f0} {^E}生命回复
 SkillManaBonus={%+.1f0} {^E}能量回复
 SkillLifePercent={%.1f0}% {^E}生命回复
-SkillManaPercent= {%.1f0}% {^E}能量回复
-SkillLifeBonusAndPercent= {%.0f1}%+{%.0f0} {^E}生命回复
-SkillManaBonusAndPercent= {%.0f1}%+{%.0f0} {^E}能量回复
+SkillManaPercent={%.1f0}% {^E}能量回复
+SkillLifeBonusAndPercent={%.0f1}% + {%.0f0} {^E}生命回复
+SkillManaBonusAndPercent={%.0f1}% + {%.0f0} {^E}能量回复
 SkillPetDescriptionHeading={%s0}的属性：
 tagSkillPetAbilities={%s0}的技能：
 SkillPetDescriptionNextHeading={%s0}的下一等级：
-SkillPetDescriptionHealth={%.0f0} {^E}点生命值
-SkillPetDescriptionMana={%.0f0} {^E}点能量值
+SkillPetDescriptionHealth={%.0f0} {^E}生命值
+SkillPetDescriptionMana={%.0f0} {^E}能量值
 SkillPetDescriptionDamageMinOnly={%.0f0} 伤害
 SkillPetDescriptionDamageMinMax={%.0f0}-{%.0f1} 伤害
 tagSkillPetTimeToLive={^E}召唤持续 {^H}{%.1f0} {^E}秒
@@ -1791,7 +1791,7 @@ YouMustIncreaseMasteryLevel=你必须提升专精等级才能投入点数
 EnableOneBaseSkill=至少需要一点基础技能等级
 MaxSkillLevelReached=已达到技能最高等级
 ActiveMasteriesAllowedReached=已达到允许激活的专精个数
-LifeMonitorPercent={^E}当生命低于 {^H}{%.1f0}% 时{^E}激活
+LifeMonitorPercent={^E}当生命值低于 {^H}{%.1f0}% 时{^E}激活
 FailedSkillDependancy=需要{%s0}技能
 FailedSkillDependancyAll=需要如下技能：
 FailedSkillDependancyOne=需要下列技能中的其中之一：
@@ -1800,7 +1800,7 @@ FailedDevotionDependency=需要亲和点数：
 FailedDevotionDependencyName={%d0} {%s1}
 FailedConstellationDependency=星座从属于：
 FailedConstellationSelfLocked=这个星座依赖于它所拥有的亲和点数。你需要从其他星座获得更多的亲和点数来遗忘它。
-ManaCost={^E}点能量消耗
+ManaCost={^E}能量消耗
 ManaCostPerSecond={^E}每秒能量消耗
 ActiveLifeCost={^E}每秒激活生命消耗
 ActiveManaCost={^E}每秒激活能量消耗
@@ -1814,9 +1814,9 @@ TargetNumberMod={^E}最多作用目标 +{%d0}
 CooldownTime={^E}技能冷却时间
 ExplosionRadius=作用范围
 TargetRange=目标距离
-ProjectileLaunchRotation=投射物速度 {^H}{%.1f0}
+ProjectileLaunchRotation={%.1f0} {^E}投射物扩散
 ProjectileLaunchNumber={%d0} {^E}枚投射物
-ProjectileLaunchNumberMod={^E}投射物数目增加 {^H}{%d0} {^E}枚
+ProjectileLaunchNumberMod=+{%d0} {^E}枚投射物
 ProjectileFragmentsLaunchNumberMinMax={%d0-%d1} {^E}碎片数
 ProjectileFragmentsLaunchNumber={%d0} {^E}碎片数
 ProjectilePiercingChance={%.1f0}% {^E}几率穿过敌人
@@ -1863,16 +1863,16 @@ tagShieldBlockInfo={%.0f0}% 的几率格挡 {^W}{%.0f1} 伤害
 
 
 
-SkillManaCostReduction={^E}技能能量消耗 {^H}-{%.0f0}%
-SkillCooldownReduction={^E}技能冷却时间缩短 {^H}{%.0f0}%
-SkillProjectileSpeedModifier={^E}投射物飞行速度 {^H}{%+.0f0}%
-SkillManaCostReductionModifier={^E}技能能量消耗减少效果提升 {^H}{%.0f0}%
-SkillCooldownReductionModifier={^E}技能冷却时间缩短效果提升 {^H}{%.0f0}%
+SkillManaCostReduction=-{%.0f0}% {^E}技能能量消耗
+SkillCooldownReduction=-{%.0f0}% {^E}技能冷却时间
+SkillProjectileSpeedModifier={%+.0f0}% {^E}投射物飞行速度
+SkillManaCostReductionModifier=-{%.0f0}% {^E}技能能量消耗
+SkillCooldownReductionModifier=-{%.0f0}% {^E}技能冷却时间
 
-GlobalChanceOfAllTag={^E}几率:{^H}
-GlobalChanceOfOneTag={^E}随机触发下列效果之一：{^H}
-GlobalPercentChanceOfAllTag={%.1f0}% {^E}几率：{^H}
-GlobalPercentChanceOfOneTag={%.1f0}% {^E}几率随机触发下列效果之一：{^H}
+GlobalChanceOfAllTag={^E}几率：{^H}
+GlobalChanceOfOneTag={^E}几率随机触发下列效果之一：{^H}
+GlobalPercentChanceOfAllTag={%.1f0}% {^E}的几率：{^H}
+GlobalPercentChanceOfOneTag={%.1f0}% {^E}的几率随机触发下列效果之一：{^H}
 tagIndent={   }
 tagDamageAbsorptionTitle={^E}伤害吸收：
 formatQualifyingDamage={     {^E}%s0}
@@ -1882,7 +1882,7 @@ tagQualifyingDamageLightning=闪电
 tagQualifyingDamageFire=火焰
 tagQualifyingDamageCold=冰冷
 tagQualifyingDamagePoison=毒酸
-tagQualifyingDamageLife=活力伤害
+tagQualifyingDamageLife=活力
 tagQualifyingDamageBleeding=流血
 tagQualifyingDamageElemental=元素
 tagQualifyingDamageAether=虚化
@@ -1894,9 +1894,9 @@ DamageInfluenceSingleFormat={%.1f0}
 DamageInfluenceRangeFormat={%.1f0}-{%.1f1}
 DamageReflexSingleFormat={%.1f0}
 DamageReflexRangeFormat={%.1f0}-{%.1f1}
-DamageSingleFormatSecond= {^E}于 {^H}{%.1f0} {^E}秒内
-DamageSingleFormatTime= {^E}于 {^H}{%.1f0} {^E}秒内
-DamageRangeFormatTime= {^E}于 {^H}{%.1f0}-{%.1f1} {^E}秒内
+DamageSingleFormatSecond= {^E}持续 {^H}{%.1f0} {^E}秒
+DamageSingleFormatTime= {^E}持续 {^H}{%.1f0} {^E}秒
+DamageRangeFormatTime= {^E}持续 {^H}{%.1f0}-{%.1f1} {^E}秒
 DamageFixedSingleFormatSecond= {^E}持续 {^H}{%.1f0} {^E}秒
 DamageFixedSingleFormatTime= {^E}持续 {^H}{%.1f0} {^E}秒
 DamageFixedRangeFormatTime= {^E}持续 {^H}{%.1f0}-{%.1f1} {^E}秒
@@ -1904,7 +1904,7 @@ RetaliationFixedSingleFormatSecond={^H}{%.1f0} {^E}秒
 RetaliationFixedSingleFormatTime={^H}{%.1f0} {^E}秒
 RetaliationFixedRangeFormatTime={^H}{%.1f0} - {%.1f1} {^E}秒
 tagDurationDamageOverTime={^E}每秒 {^H}{%d0} {^E}伤害
-tagDotReductionAbsolute={^E}减少  {^H}{%d0}
+tagDotReductionAbsolute={^E}减少 {^H}{%d0}
 tagDotReductionPercent={^E}减少 {^H}{%d0}%
 tagDotTimeRemaining={^E}剩余 {^H}{%.0f0} {^E}秒
 tagDotTimeRemainingPrecise={^E}剩余 {^H}{%.1f0} {^E}秒
@@ -1933,10 +1933,10 @@ tagDotElementalDamageReduction=元素伤害
 tagDotTotalResistReduction=全抗性
 tagDotPhysicalResistReduction=物理抗性
 tagDotElementalResistReduction=元素抗性
-tagDotStun=被击晕
+tagDotStun=眩晕
 tagDotSleep=昏睡
 tagDotTrap=被禁锢
-tagDotFreeze=被冰冻
+tagDotFreeze=被冻结
 tagDotPetrify=被石化
 
 tagSetItems=({%d0}) 套装
@@ -1981,13 +1981,13 @@ DamageFear={^E}恐惧目标 {%t0}
 DamageConfusion={^E}迷惑目标 {%t0}
 DamageDisruption={^E}打断目标技能 {%t0}
 DamagePercentCurrentLife={%t0}% {^E}减少敌人当前生命值
-DamageManaDrain={%t0}% {^E}燃烧法力
-DamageManaBurnRatio= ({^E}造成的伤害为燃烧法力值 {^H}{%.0f0}%)
-DamageModifierManaBurn={^E}能量燃烧造成的伤害提升 {^H}{%.0f0}%
+DamageManaDrain={%t0}% {^E}能量燃烧
+DamageManaBurnRatio= {^E}({^H}{%.0f0}% {^E}能量燃烧造成伤害)
+DamageModifierManaBurn={%.0f0}% {^E}能量燃烧造成的伤害
 
 DamageDurationAttackSpeed=% {^E}降低敌人攻击速度
 DamageDurationCold= ^b霜燃伤害^-
-DamageDurationReduced= {^E}防御减少
+DamageDurationReduced= {^E}防御降低
 DamageDurationFire= ^r燃烧伤害^-
 DamageDurationLife= ^f活力衰减伤害^-
 DamageDurationLifeLeach= ^r生命吸取^-
@@ -1999,24 +1999,24 @@ DamageDurationDefensiveAbility= {^E}点目标防御能力降低
 DamageDurationDefensiveReduction= {^E}点目标护甲降低
 DamageDurationPhysical= ^e创伤伤害^-
 DamageDurationPoison= ^g毒素伤害^-
-DamageDurationTotalSpeed=% {^E}减速目标
+DamageDurationTotalSpeed=% {^E}目标所有速度降低
 DamageDurationRunSpeed=% {^E}目标移动速度降低
 DamageDurationSpellCastSpeed=% {^E}目标施法速度降低
 DamageDurationBleeding= ^m流血伤害^-
 DamageDurationElemental= ^l元素燃烧^-
 
 DamageTotalDamageReductionPercent=% {^E}目标伤害降低
-DamageTotalDamageReductionAbsolute= {^E}点目标伤害降低
+DamageTotalDamageReductionAbsolute= {^E}目标伤害降低
+DamagePhysicalReductionPercent=% {^E}目标物理伤害降低
+DamageElementalReductionPercent=% {^E}目标元素伤害降低
 DamageTotalResistanceReductionPercent=% {^E}目标抗性降低
-DamagePhysicalReductionPercent=% {^E}减少目标的物理伤害
-DamageElementalReductionPercent=% {^E}减少目标的元素伤害
 DamageTotalResistanceReductionAbsolute= {^E}目标抗性降低
-DamagePhysicalResistanceReductionPercent=% {^E}减少目标的物理抗性
-DamagePhysicalResistanceReductionAbsolute= {^E}减少目标的物理抗性
-DamageElementalResistanceReductionPercent=% {^E}减少目标的元素抗性
-DamageElementalResistanceReductionAbsolute= {^E}减少目标的元素抗性
+DamagePhysicalResistanceReductionPercent=% {^E}目标物理抗性降低
+DamagePhysicalResistanceReductionAbsolute= {^E}目标物理抗性降低
+DamageElementalResistanceReductionPercent=% {^E}目标元素抗性降低
+DamageElementalResistanceReductionAbsolute= {^E}目标元素抗性降低
 DamageDurationFumble=% {^E}的几率目标攻击失误
-DamageDurationProjectileFumble=% {^E}的几率目标瞄准障碍
+DamageDurationProjectileFumble=% {^E}的几率目标瞄准失误
 
 DamageModifierPhysical={%+.0f0}% ^e物理伤害^-
 DamageModifierPhysicalR={%+.0f0}-{%.0f1}% ^e物理伤害^-
@@ -2034,20 +2034,20 @@ DamageModifierLightning={%+.0f0}% ^c闪电伤害^-
 DamageModifierLightningR={%+.0f0}-{%.0f1}% ^c闪电伤害^-
 DamageModifierLife={%+.0f0}% ^f活力伤害^-
 DamageModifierLifeR={%+.0f0}-{%.0f1}% ^f活力伤害^-
-DamageModifierStun={%+.0f0}% {^E}眩晕持续时间
-DamageModifierStunR={%+.0f0}-{%.0f1}% {^E}击晕时间
+DamageModifierStun={%+.0f0}% {^E}眩晕时间
+DamageModifierStunR={%+.0f0}-{%.0f1}% {^E}眩晕时间
 DamageModifierChaos={%+.0f0}% ^o混乱伤害^-
 DamageModifierChaosR={%+.0f0}-{%.0f1}% ^o混乱伤害^-
 DamageModifierAether={%+.0f0}% ^t虚化伤害^-
 DamageModifierAetherR={%+.0f0}-{%.0f1}% ^t虚化伤害^-
 DamageModifierKnockdown={%+.0f0}% {^E}击倒时间
 DamageModifierKnockdownR={%+.0f0}-{%.0f1}% {^E}击倒时间
-DamageModifierTrap={%+.0f0}% {^E}陷阱持续时间
-DamageModifierTrapR={%+.0f0}-{%.0f1}% {^E}陷阱持续时间
-DamageModifierFreeze={%+.0f0}% {^E}冻结持续时间
-DamageModifierFreezeR={%+.0f0}-{%.0f1}% {^E}冻结持续时间
-DamageModifierPetrify={%+.0f0}% {^E}石化持续时间
-DamageModifierPetrifyR={%+.0f0}-{%.0f1}% {^E}石化持续时间
+DamageModifierTrap={%+.0f0}% {^E}禁锢时间
+DamageModifierTrapR={%+.0f0}-{%.0f1}% {^E}禁锢时间
+DamageModifierFreeze={%+.0f0}% {^E}冻结时间
+DamageModifierFreezeR={%+.0f0}-{%.0f1}% {^E}冻结时间
+DamageModifierPetrify={%+.0f0}% {^E}石化时间
+DamageModifierPetrifyR={%+.0f0}-{%.0f1}% {^E}石化时间
 
 DamageDurationModifierPhysical={%+.0f0}% ^e创伤伤害^-
 DamageDurationModifierBleeding={%+.0f0}% ^m流血伤害^-
@@ -2065,8 +2065,8 @@ DamageDurationModifierOffensiveAbility={%+.0f0}% {^E}目标进攻能力降低
 DamageDurationModifierDefensiveAbility={%+.0f0}% {^E}目标防御能力降低
 DamageDurationModifierOffensiveReduction={%+.0f0}% {^E}目标物理伤害降低
 ImprovedTimeFormat= {^E}持续时间 {^H}{%+.0f0}%
-ImprovedTimeFormatR= {^E}持续时间增加 {^H}{%+.0f0}-{%.0f1}%
-IncreasedDuration= {^E}{%s1}的持续时间 {^H}{%+.0f0}%
+ImprovedTimeFormatR= {^E}持续时间 {^H}{%+.0f0}-{%.0f1}%
+IncreasedDuration={^E}{%s1}的持续时间 {^H}{%+.0f0}%
 
 RetaliationCold={%t0} ^b冰冷反击^-
 RetaliationFire={%t0} ^r火焰反击^-
@@ -2086,22 +2086,22 @@ RetaliationConvert={%t0} 思维控制反击
 RetaliationFear={%t0} 恐惧反击
 RetaliationConfusion={%t0} 迷惑反击
 RetaliationSleep={%t0} 昏睡反击
-RetaliationPercentCurrentLife={^E}反击造成敌人当前生命减少 {^H}{%t0}%
-RetaliationDurationAttackSpeed=% {^E}降低攻击速度反击
+RetaliationPercentCurrentLife={^E}反击造成敌人当前生命值减少 {^H}{%t0}%
+RetaliationDurationAttackSpeed=% {^E}攻击速度降低反击
 RetaliationDurationCold= ^b霜燃反击^-
-RetaliationDurationDefensiveAbility= {^E}降低防御能力反击
+RetaliationDurationDefensiveAbility= {^E}防御能力降低反击
 RetaliationDurationFire= ^r燃烧反击^-
 RetaliationDurationLife= ^f活力衰减反击^-
 RetaliationDurationLifeLeach= ^r生命吸取反击^-
 RetaliationDurationLightning= ^c电击反击^-
 RetaliationDurationManaLeach= ^t能量吸取反击^-
-RetaliationDurationOffensiveAbility= {^E}降低攻击能力反击
-RetaliationDurationOffensiveReduction= {^E}伤害减少反击
+RetaliationDurationOffensiveAbility= {^E}攻击能力降低反击
+RetaliationDurationOffensiveReduction= {^E}伤害降低反击
 RetaliationDurationPhysical= ^e创伤反击^-
 RetaliationDurationBleeding= ^m流血反击^-
 RetaliationDurationPoison= ^g毒素反击^-
-RetaliationDurationRunSpeed=% {^E}降低移动速度反击
-RetaliationDurationSpellCastSpeed=% {^E}降低施法速度反击
+RetaliationDurationRunSpeed=% {^E}移动速度降低反击
+RetaliationDurationSpellCastSpeed=% {^E}施法速度降低反击
 RetaliationModifierPhysical={%+.0f0}% ^e物理反击^-
 RetaliationModifierPierceRatio={%+.0f0}% ^y穿刺反击^-
 RetaliationModifierPierce={%+.0f0}% ^y穿刺反击^-
@@ -2118,22 +2118,22 @@ RetaliationModifierSleep={%+.0f0}% {^E}昏睡反击
 RetaliationDurationModifierPhysical={%+.0f0}% ^e创伤反击^-
 RetaliationDurationModifierBleeding={%+.0f0}% ^m流血反击^-
 RetaliationDurationModifierCold={%+.0f0}% ^b霜燃反击^-
-RetaliationDurationModifierDefensiveAbility={%+.0f0}% {^E}降低防御能力反击
+RetaliationDurationModifierDefensiveAbility={%+.0f0}% {^E}防御能力降低反击
 RetaliationDurationModifierFire={%+.0f0}% ^r燃烧反击^-
 RetaliationDurationModifierLife={%+.0f0}% ^f活力衰减反击^-
 RetaliationDurationModifierLifeLeach={%+.0f0}% ^r生命吸取反击^-
 RetaliationDurationModifierLightning={%+.0f0}% ^c电击反击^-
 RetaliationDurationModifierManaLeach={%+.0f0}% ^t能量吸取反击^-
-RetaliationDurationModifierOffensiveAbility={%+.0f0}% {^E}降低攻击能力反击
-RetaliationDurationModifierOffensiveReduction={%+.0f0}% {^E}降低伤害反击
+RetaliationDurationModifierOffensiveAbility={%+.0f0}% {^E}攻击能力降低反击
+RetaliationDurationModifierOffensiveReduction={%+.0f0}% {^E}伤害降低反击
 RetaliationDurationModifierPoison={%+.0f0}% ^g毒素反击^-
 
-DefenseAbsorptionProtection={%.0f0} 点护甲
-DefenseAbsorptionProtectionR={%.0f0}-{%.0f1} 点护甲
+DefenseAbsorptionProtection={%.0f0} 护甲
+DefenseAbsorptionProtectionR={%.0f0}-{%.0f1} 护甲
 DefenseAbsorptionProtectionPlus=+{%.0f0} {^b}点护甲
-DefenseAbsorptionProtectionPlusR=+{%.0f0}-{%.0f1} {^b}点护甲
-DefenseAbsorptionProtectionBonus=+{%.0f0} {^E}点护甲加成
-DefenseAbsorptionProtectionBonusR=+{%.0f0}-{%.0f1} {^E}点护甲加成
+DefenseAbsorptionProtectionPlusR=+{%.0f0}-{%.0f1} {^b}护甲
+DefenseAbsorptionProtectionBonus=+{%.0f0} {^E}护甲加成
+DefenseAbsorptionProtectionBonusR=+{%.0f0}-{%.0f1} {^E}护甲加成
 DefensePhysical={%.0f0}% {^b}物理抗性
 DefensePhysicalR={%.0f0}-{%.0f1}% {^b}物理抗性
 DefensePierce={%.0f0}% {^E}穿刺抗性
@@ -2161,72 +2161,72 @@ DefenseLifeLeach={%.0f0}% {^E}生命吸取抗性
 DefenseLifeLeachR={%.0f0}-{%.0f1}% {^E}生命吸取抗性
 DefenseManaLeach={%.0f0}% {^E}能量吸取抗性
 DefenseManaLeachR={%.0f0}-{%.0f1}% {^E}能量吸取抗性
-DefenseTrap={^E}减少 {^H}{%.0f0}% {^p}禁锢持续时间
+DefenseTrap={^E}减少 {^H}{%.0f0}% {^p}禁锢时间
 DefenseTrapNegative={%.0f0}% {^p}禁锢抗性
-DefenseTrapR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}禁锢持续时间
-DefenseFreeze={^E}减少 {^H}{%.0f0}% {^p}的冻结持续时间
+DefenseTrapR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}禁锢时间
+DefenseFreeze={^E}减少 {^H}{%.0f0}% {^p}冻结时间
 DefenseFreezeNegative={%.0f0}% {^p}冻结抗性
-DefenseFreezeR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}冻结持续时间
-DefenseKnockdown={^E}减少 {^H}{%.0f0}% {^E}击倒持续时间
+DefenseFreezeR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}冻结时间
+DefenseKnockdown={^E}减少 {^H}{%.0f0}% {^E}击倒时间
 DefenseKnockdownNegative={%.0f0}% {^E}击倒抗性
-DefenseKnockdownR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^E}击倒持续时间
-DefensePetrify={^E}减少 {^H}{%.0f0}% {^p}石化持续时间
+DefenseKnockdownR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^E}击倒时间
+DefensePetrify={^E}减少 {^H}{%.0f0}% {^p}石化时间
 DefensePetrifyNegative={%.0f0}% {^p}石化抗性
-DefensePetrifyR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}石化持续时间
+DefensePetrifyR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^p}石化时间
 DefenseTaunt={%.0f0}% {^E}嘲讽抵抗
-DefenseConvert={^E}减少 {^H}{%.0f0}% {^E}思维控制持续时间
-DefenseFear={^E}减少 {^H}{%.0f0} %{^E}恐惧持续时间
-DefenseConfusion={^E}减少 {^H}{%.0f0}% {^E}迷惑持续时间
-DefenseDisruption={%.0f0}% {^E}技能打断抗性
+DefenseConvert={^E}减少 {^H}{%.0f0}% {^E}思维控制时间
+DefenseFear={^E}减少 {^H}{%.0f0} %{^E}恐惧时间
+DefenseConfusion={^E}减少 {^H}{%.0f0}% {^E}迷惑时间
+DefenseDisruption={%.0f0}% {^E}技能打断保护
 DefensePercentLife={%.0f0}% {^E}活力减少抗性
 DefenseBleeding={%.0f0}% {^E}流血抗性
 DefenseBleedingR={%.0f0}-{%.0f1}% {^E}流血抗性
 DefenseBlock={%.0f0} {^E}伤害格挡
 DefenseReflect={%.0f0}% {^E}伤害反弹
 DefenseReflectR={^H}{%.0f0}-{%.0f1}% {^E}伤害反弹
-DefensePhysicalDuration={^E}创伤效果的持续时间减少 {^H}{%.0f0}%
-DefenseBleedingDuration={^E}流血的持续时间减少 {^H}{%.0f0}%
+DefensePhysicalDuration={^E}创伤持续时间减少 {^H}{%.0f0}%
+DefenseBleedingDuration={^E}流血持续时间减少 {^H}{%.0f0}%
 DefenseColdDuration={^E}霜燃持续时间减少 {^H}{%.0f0}%
 DefenseFireDuration={^E}燃烧持续时间减少 {^H}{%.0f0}%
 DefensePoisonDuration={^E}毒素持续时间减少 {^H}{%.0f0}%
 DefenseLightningDuration={^E}电击持续时间减少 {^H}{%.0f0}%
 DefenseLifeDuration={^E}活力衰减持续时间减少 {^H}{%.0f0}%
 DefenseLifeLeachDuration={^E}生命吸取持续时间减少 {^H}{%.0f0}%
-DefenseManaLeachDuration={^E}能量吸取持续时间 {^H}{%.0f0}%
-DefensePercentCurrentLife=+{%.0f0}% {^E}生命值百分比加成减少抗性
+DefenseManaLeachDuration={^E}能量吸取持续时间减少 {^H}{%.0f0}%
+DefensePercentCurrentLife=+{%.0f0}% {^E}生命值百分比减少抗性
 DefenseManaBurnRatio=+{%.0f0}% {^E}能量燃烧抗性
 DefenseProtectionModifier={^b}护甲提高 {^H}{%.0f0}%
 DefenseProtectionModifierR={^b}护甲提高 {^H}{%.0f0}-{%.0f1}%
 DefenseAbsorptionModifier={^b}护甲吸收提高 {^H}{%.0f0}%
 DefenseAbsorptionModifierR={^b}护甲吸收提高 {^H}{%.0f0}-{%.0f1}%
-DefensePhysicalModifier={^E}当前物理抗性提高 {^H}{%.0f0}%
-DefensePierceModifier={^E}当前穿刺抗性提高 {^H}{%.0f0}%
-DefenseColdModifier={^E}当前冰冷抗性提高 {^H}{%.0f0}%
-DefenseFireModifier={^E}当前火焰抗性提高 {^H}{%.0f0}%
-DefensePoisonModifier={^E}当前毒酸抗性提高 {^H}{%.0f0}%
-DefenseLightningModifier={^E}当前闪电抗性提高 {^H}{%.0f0}%
-DefenseLifeModifier={^E}当前活力抗性提高 {^H}{%.0f0}%
-DefenseChaosModifier={^E}当前混乱抗性提高 {^H}{%.0f0}%
-DefenseAetherModifier={^E}当前虚化抗性提高 {^H}{%.0f0}%
-DefenseStunModifier={^E}当前眩晕抗性提高 {^H}{%.0f0}%
+DefensePhysicalModifier={^E}当前物理抗性加成 {^H}{%.0f0}%
+DefensePierceModifier={^E}当前穿刺抗性加成 {^H}{%.0f0}%
+DefenseColdModifier={^E}当前冰冷抗性加成 {^H}{%.0f0}%
+DefenseFireModifier={^E}当前火焰抗性加成 {^H}{%.0f0}%
+DefensePoisonModifier={^E}当前毒酸抗性加成 {^H}{%.0f0}%
+DefenseLightningModifier={^E}当前闪电抗性加成 {^H}{%.0f0}%
+DefenseLifeModifier={^E}当前活力抗性加成 {^H}{%.0f0}%
+DefenseChaosModifier={^E}当前混乱抗性加成 {^H}{%.0f0}%
+DefenseAetherModifier={^E}当前虚化抗性加成 {^H}{%.0f0}%
+DefenseStunModifier={^E}当前眩晕抗性加成 {^H}{%.0f0}%
 DefenseBlockModifier={%+.0f0}% {^E}盾牌格挡几率
 DefenseBlockAmountModifier={%+.0f0}% {^E}盾牌格挡值
-DefenseBlockAmountModifierR={%+.0f0}-{%+.0f1}% {^E}盾牌格挡值
+DefenseBlockAmountModifierR={%+.0f0} 至 {%+.0f1}% {^E}盾牌格挡值
 DefenseReflectModifier={%+.0f0}% {^E}伤害反弹
 DefenseLifeLeachModifier={^E}当前生命吸取抗性加成 {^H}{%.0f0}%
 DefenseManaLeachModifier={^E}当前能量吸取抗性加成 {^H}{%.0f0}%
-DefensePercentLifeModifier={^E}生命值百分比加成减少抗性提高 {^H}{%.0f0}%
-DefenseBleedingModifier={^E}当前流血抗性提高 {^H}{%.0f0}%
-DefenseElementalModifier={^E}当前元素抗性提高 {^H}{%.0f0}%
-DefensePhysicalDurationModifier={^E}创伤时间减少 {^H}{%+.0f0}%
-DefenseBleedingDurationModifier={^E}流血时间减少 {^H}{%+.0f0}%
-DefenseColdDurationModifier={^E}霜燃时间减少 {^H}{%+.0f0}%
-DefenseFireDurationModifier={^E}燃烧时间减少 {^H}{%+.0f0}%
-DefensePoisonDurationModifier={^E}毒素时间减少 {^H}{%+.0f0}%
-DefenseLightningDurationModifier={^E}电击时间减少 {^H}{%+.0f0}%
-DefenseLifeDurationModifier={^E}活力衰减时间减少 {^H}{%+.0f0}%
-DefenseLifeLeachDurationModifier={^E}生命吸取时间减少 {^H}{%+.0f0}%
-DefenseManaLeachDurationModifier={^E}能量吸取时间减少 {^H}{%+.0f0}%
+DefensePercentLifeModifier={^E}生命值百分比减少抗性提高 {^H}{%.0f0}%
+DefenseBleedingModifier={^E}当前流血抗性加成 {^H}{%.0f0}%
+DefenseElementalModifier={^E}当前元素抗性加成 {^H}{%.0f0}%
+DefensePhysicalDurationModifier={^E}创伤持续时间减少 {^H}{%+.0f0}%
+DefenseBleedingDurationModifier={^E}流血持续时间减少 {^H}{%+.0f0}%
+DefenseColdDurationModifier={^E}霜燃持续时间减少 {^H}{%+.0f0}%
+DefenseFireDurationModifier={^E}燃烧持续时间减少 {^H}{%+.0f0}%
+DefensePoisonDurationModifier={^E}毒素持续时间减少 {^H}{%+.0f0}%
+DefenseLightningDurationModifier={^E}电击持续时间减少 {^H}{%+.0f0}%
+DefenseLifeDurationModifier={^E}活力衰减持续时间减少 {^H}{%+.0f0}%
+DefenseLifeLeachDurationModifier={^E}生命吸取持续时间减少 {^H}{%+.0f0}%
+DefenseManaLeachDurationModifier={^E}能量吸取持续时间减少 {^H}{%+.0f0}%
 DefensePhysicalMaxResist={%+.0f0}% {^E}最大物理抗性
 DefensePhysicalMaxResistR={%+.0f0}-{%.0f1}% {^E}最大物理抗性
 DefensePierceMaxResist={%+.0f0}% {^E}最大穿刺抗性
@@ -2245,33 +2245,33 @@ DefenseLightningMaxResist={%+.0f0}% {^E}最大闪电抗性
 DefenseLightningMaxResistR={%+.0f0}-{%.0f1}% {^E}最大闪电抗性
 DefenseLifeMaxResist={%+.0f0}% {^E}最大活力抗性
 DefenseLifeMaxResistR={%+.0f0}-{%.0f1}% {^E}最大活力抗性
-DefenseStunMaxResist={^E}最大眩晕时间减少 {^H}{%+.0f0}%
-DefenseStunMaxResistR={^E}最大眩晕时间减少 {^H}{%+.0f0}-{%.0f1}%
-DefenseLifeLeachMaxResist={^E}最大生命吸取抗性 {^H}{%+.0f0}%
-DefenseLifeLeachMaxResistR={^E}最大生命吸取抗性 {^H}{%+.0f0}-{%.0f1}%
-DefenseManaLeachMaxResist={^E}最大能量吸取抗性 {^H}{%+.0f0}%
-DefenseManaLeachMaxResistR={^E}最大能量吸取抗性 {^H}{%+.0f0}-{%.0f1}%
-DefenseTrapMaxResist={^E}最大禁锢时间减少 {^H}{%+.0f0}%
-DefenseTrapMaxResistR={^E}最大禁锢时间减少 {^H}{%+.0f0}-{%.0f1}%
-DefenseFreezeMaxResist={^E}最大冻结时间减少 {^H}{%+.0f0}%
-DefenseFreezeMaxResistR={^E}最大冻结时间减少 {^H}{%+.0f0}-{%.0f1}%
-DefensePetrifyMaxResist={^E}最大石化时间减少 {^H}{%+.0f0}%
-DefensePetrifyMaxResistR={^E}最大石化时间减少 {^H}{%+.0f0}-{%.0f1}%
-DefenseDisruptionMaxResist={%+.0f0}% {^E}最大技能打断抗性
-DefenseDisruptionMaxResistR={%+.0f0}-{%.0f1}% {^E}最大技能打断抗性
+DefenseStunMaxResist={%+.0f0}% {^E}最大眩晕时间缩短
+DefenseStunMaxResistR={%+.0f0}-{%.0f1}% {^E}最大眩晕时间缩短
+DefenseLifeLeachMaxResist={%+.0f0}% {^E}最大生命吸取抗性
+DefenseLifeLeachMaxResistR={%+.0f0}-{%.0f1}% {^E}最大生命吸取抗性
+DefenseManaLeachMaxResist={%+.0f0}% {^E}最大能量吸取抗性
+DefenseManaLeachMaxResistR={%+.0f0}-{%.0f1}% {^E}最大能量吸取抗性
+DefenseTrapMaxResist={%+.0f0}% {^E}最大禁锢时间缩短
+DefenseTrapMaxResistR={%+.0f0}-{%.0f1}% {^E}最大禁锢时间缩短
+DefenseFreezeMaxResist={%+.0f0}% {^E}最大冻结持续时间缩短
+DefenseFreezeMaxResistR={%+.0f0}-{%.0f1}% {^E}最大冻结持续时间缩短
+DefensePetrifyMaxResist={%+.0f0}% {^E}最大石化持续时间缩短
+DefensePetrifyMaxResistR={%+.0f0}-{%.0f1}% {^E}最大石化持续时间缩短
+DefenseDisruptionMaxResist={%+.0f0}% {^E}最大技能打断保护
+DefenseDisruptionMaxResistR={%+.0f0}-{%.0f1}% {^E}最大技能打断保护
 DefenseBleedingMaxResist={%+.0f0}% {^E}最大流血抗性
 DefenseBleedingMaxResistR={%+.0f0}-{%.0f1}% {^E}最大流血抗性
 DefenseSleepMaxResist={%+.0f0}% {^E}最大昏睡抗性
 DefenseSleepMaxResistR={%+.0f0}-{%.0f1}% {^E}最大昏睡抗性
 DefenseAllMaxResist={%+.0f0}% {^o}最大全抗性
 DefenseAllMaxResistR={%+.0f0}-{%.0f1}% {^o}最大全抗性
-DefenseReflectResist={%.0f0}% {^E}反弹伤害降低
-DefenseReflectResistR={%+.0f0}-{%.0f1}% {^E}反弹伤害降低
+DefenseReflectResist={^H}{%.0f0}% {^E}反弹伤害减免
+DefenseReflectResistR={^H}{%+.0f0}-{%.0f1}% {^E}反弹伤害减免
 
 RacialBonusPercentDamage={%+.0f0}% {^E}对{%s1}的伤害
-RacialBonusAbsoluteDamage={%+.0f0} {^E}点对{%s1}伤害
-RacialBonusPercentDefense={^E}来自{%s1}伤害降低 {^H}{%.0f0}%
-RacialBonusAbsoluteDefense={^E}来自{%s1}伤害减少 {^H}{%.0f0} {^E}点
+RacialBonusAbsoluteDamage={%+.0f0} {^E}对{%s1}的伤害
+RacialBonusPercentDefense={^E}来自{%s1}的伤害降低 {^H}{%.0f0}%
+RacialBonusAbsoluteDefense={^E}来自{%s1}的伤害降低 {^H}{%.0f0}
 RacialBonusRaceName={%s0}
 
 
@@ -2289,10 +2289,10 @@ tagRetaliationModifierDamageMult={^W}总反击伤害修正 {^H}{%.0f0}%
 tagTotalSpeedResistance={%.0f0}% {^p}减速抗性
 tagTotalSpeedResistanceR={%+.0f0}-{%.0f1}% {^p}减速抗性
 tagMindcontrolledMonster=思维控制
-tagSparkMaxNumberChanceSingle={^H}{%.0f0}% {^E}几率影响最多 {^H}{%d1} {^E}个目标
-tagSparkMaxNumberChanceSingleMod={^H}+{%.0f0}% {^E}几率影响最多 {^H}{%d1} {^E}个目标
-tagSparkMaxNumberChance={^H}{%.0f0}% {^E}几率影响最多 {^H}{%d1} {^E}个目标
-tagSparkMaxNumberChanceMod={^H}+{%.0f0}% {^E}几率影响最多 {^H}{%d1} {^E}个目标
+tagSparkMaxNumberChanceSingle={^H}{%.0f0}% {^E}的几率影响最多 {^H}{%d1} {^E}个目标
+tagSparkMaxNumberChanceSingleMod={^H}+{%.0f0}% {^E}的几率影响最多 {^H}{%d1} {^E}个目标
+tagSparkMaxNumberChance={^H}{%.0f0}% {^E}的几率影响最多 {^H}{%d1} {^E}个目标
+tagSparkMaxNumberChanceMod={^H}+{%.0f0}% {^E}的几率影响最多 {^H}{%d1} {^E}个目标
 tagSparkMaxNumberSingle={^E}最多影响 {^H}{%d0} {^E}个目标
 tagSparkMaxNumberSingleMod={^E}最多影响 {^H}+{%d0} {^E}个目标
 tagSparkMaxNumber={^E}最多影响 {^H}{%d0} {^E}个目标
@@ -2330,13 +2330,13 @@ tagExperienceDisplayFormat=当前经验：{^y}{%t0} {^w}~ 到达下一等级还�
 tagCXP=经验值：{%t0}
 tagGrave01=玩家坟墓 ~ {%t0}
 tagGrave02=死于{%t0}
-tagGrave03=经验回收：{%d0} 点
-tagHeroXPShort={%d0} 点英雄经验值
-tagBossXPShort={%d0} 点头领经验值
+tagGrave03=经验回收：{%d0}
+tagHeroXPShort={%d0} 英雄经验
+tagBossXPShort={%d0} 头领经验
 tagBossXPLong01=击杀头领怪物
-tagBossXPLong02=获得 {%d0} 点经验值
-tagHeroXPLong01=击英雄怪物杀
-tagHeroXPLong02=获得 {%d0} 点经验值
+tagBossXPLong02=获得 {%d0} 经验
+tagHeroXPLong01=击杀英雄怪物
+tagHeroXPLong02=获得 {%d0} 经验
 
 tagPetBonusNameAllPets=所有战宠加成
 tagPetBonusNameOnePet=战宠{%s0}的加成
